@@ -23,7 +23,12 @@ public class RAE_Page extends PageObject{
     private WebElementFacade lookupButton;
 
     public void enter_keywords(String keyword) {
-        
+        WebElement buscador=driver.findElement(By.id("dval"));
+        buscador.sendKeys(keysToSend);
+//        
+//        WebElement element_enter = driver.findElement(By.xpath("//*[@id='div-barcode']"));
+//        element_enter.findElement(By.xpath("your xpath")).sendKeys(barcode);
+
     	//searchTerms.type(keyword);
     }
 
