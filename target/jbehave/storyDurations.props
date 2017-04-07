@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Apr 07 17:15:45 BOT 2017
+threads=1
+total=73000
+stories/RAE/SearchInRealAcademiaEspanola.story=73000
+threadAverage=73000
