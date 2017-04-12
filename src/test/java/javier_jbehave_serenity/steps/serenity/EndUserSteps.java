@@ -17,6 +17,7 @@ public class EndUserSteps {
 		rae_page.enter_keywords(keyword);
     }
 	
+	
 	@Step
 	public void is_the_home_page() {
 		rae_page.open();

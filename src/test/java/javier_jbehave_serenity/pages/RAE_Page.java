@@ -11,6 +11,7 @@ import ch.lambdaj.function.convert.Converter;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
+import net.thucydides.core.annotations.locators.WaitForWebElements;
 import net.thucydides.core.pages.PageObject;
 
 @DefaultUrl("http://www.rae.es/")
@@ -21,17 +22,24 @@ public class RAE_Page extends PageObject{
 
     @FindBy(css=".sbb")
     private WebElementFacade lookupButton;
-
+    
     public void enter_keywords(String keyword) {
-        WebElement buscador=driver.findElement(By.id("dval"));
-        buscador.sendKeys(keysToSend);
-//        
-//        WebElement element_enter = driver.findElement(By.xpath("//*[@id='div-barcode']"));
-//        element_enter.findElement(By.xpath("your xpath")).sendKeys(barcode);
-
-    	//searchTerms.type(keyword);
+        searchTerms.type(keyword);
     }
 
+
+
+//    public void enter_keywords2(String keyword){
+//    	WaitForWebElements buscador=getDriver().findElements(By.id("dval"[0]));
+//    	buscador.sendKeys(keyword);
+//    }
+    
+    public void clickearBottonBusquead(){
+    	WebElement botonBusqueda=getDriver().findElement(By.className("sbb"));
+    	//botonBusquedasendKeys(keyword);
+    }
+
+    
     public void lookup_terms() {
         lookupButton.click();
     }

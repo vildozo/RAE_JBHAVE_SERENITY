@@ -1,5 +1,5 @@
-javier_jbehave_serenity/pages/RAE_Page.class
-javier_jbehave_serenity/AcceptanceTestSuite.class
-javier_jbehave_serenity/steps/serenity/EndUserSteps.class
-javier_jbehave_serenity/pages/RAE_Page$1.class
-javier_jbehave_serenity/steps/DefinitionSteps.class
+javier_jbehave_serenity\AcceptanceTestSuite.class
+javier_jbehave_serenity\steps\DefinitionSteps.class
+javier_jbehave_serenity\pages\RAE_Page.class
+javier_jbehave_serenity\steps\serenity\EndUserSteps.class
+javier_jbehave_serenity\pages\RAE_Page$1.class

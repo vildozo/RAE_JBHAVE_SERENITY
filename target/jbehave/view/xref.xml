@@ -246,23 +246,17 @@ I want to be able to Search</localizedNarrative>
                   <step>Given the user is in Real Academia Espanola home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in Real Academia Espanola home page</parametrisedStep>
-                  <durationInMillis>24243</durationInMillis>
-                </successful>
-                <successful>
-                  <step>When the user looks for the word &apos;cerdo&apos;</step>
-                  <type>SUCCESSFUL</type>
-                  <parametrisedStep>When the user looks for the word &apos;cerdo&apos;</parametrisedStep>
-                  <durationInMillis>10339</durationInMillis>
+                  <durationInMillis>15614</durationInMillis>
                 </successful>
                 <failed>
-                  <step>When user clicks on search</step>
+                  <step>When the user looks for the word &apos;cerdo&apos;</step>
                   <type>FAILED</type>
                   <throwable>
-                    <detailMessage>When user clicks on search</detailMessage>
+                    <detailMessage>When the user looks for the word &apos;cerdo&apos;</detailMessage>
                     <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
                       <detailMessage>org.openqa.selenium.ElementNotVisibleException: Timed out after 2 seconds. Element not available
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;jv-VM&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-72-generic&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailMessage>
                       <cause class="org.openqa.selenium.ElementNotVisibleException" defined-in="java.lang.Throwable">
                         <detailMessage>Timed out after 2 seconds. Element not available</detailMessage>
@@ -273,25 +267,25 @@ Driver info: driver.version: unknown</detailMessage>
                           <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
                           <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)</trace>
                           <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)</trace>
-                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)</trace>
                           <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                           <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                           <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
                           <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                           <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                          <trace>com.sun.proxy.$Proxy21.click(Unknown Source)</trace>
-                          <trace>javier_jbehave_serenity.pages.RAE_Page.lookup_terms(RAE_Page.java:30)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.clicks_button(EndUserSteps.java:37)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.CGLIB$clicks_button$4(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61$$FastClassByCGLIB$$6987942b.invoke(&lt;generated&gt;)</trace>
+                          <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
+                          <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
                           <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                           <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                           <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                           <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -329,8 +323,8 @@ Driver info: driver.version: unknown</detailMessage>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                         <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -358,7 +352,7 @@ Driver info: driver.version: unknown</detailMessage>
                       </suppressedExceptions>
                       <detailedMessage>Timed out after 2 seconds. Element not available
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;jv-VM&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-72-generic&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailedMessage>
                       <stackTrace>
                         <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)</trace>
@@ -367,25 +361,25 @@ Driver info: driver.version: unknown</detailedMessage>
                         <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
                         <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)</trace>
                         <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)</trace>
-                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                         <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
                         <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                         <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                        <trace>com.sun.proxy.$Proxy21.click(Unknown Source)</trace>
-                        <trace>javier_jbehave_serenity.pages.RAE_Page.lookup_terms(RAE_Page.java:30)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.clicks_button(EndUserSteps.java:37)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.CGLIB$clicks_button$4(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61$$FastClassByCGLIB$$6987942b.invoke(&lt;generated&gt;)</trace>
+                        <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
+                        <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
                         <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                         <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -431,11 +425,17 @@ Driver info: driver.version: unknown</detailedMessage>
                       <c class="list"/>
                       <list/>
                     </suppressedExceptions>
-                    <uuid>5dde509f-232f-4e34-bab3-af8da3d0338a</uuid>
+                    <uuid>44410f04-d554-475d-9dd5-e3f365fd0e4b</uuid>
                   </throwable>
-                  <parametrisedStep>When user clicks on search</parametrisedStep>
-                  <durationInMillis>13645</durationInMillis>
+                  <parametrisedStep>When the user looks for the word &apos;cerdo&apos;</parametrisedStep>
+                  <durationInMillis>6562</durationInMillis>
                 </failed>
+                <notPerformed>
+                  <step>When user clicks on search</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When user clicks on search</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
                 <notPerformed>
                   <step>Then user should see the &apos;cerdo, da&apos;</step>
                   <type>NOT_PERFORMED</type>
@@ -538,7 +538,7 @@ Driver info: driver.version: unknown</detailedMessage>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>72935</durationInMillis>
+        <durationInMillis>27591</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -640,23 +640,17 @@ Driver info: driver.version: unknown</detailedMessage>
               <step>Given the user is in Real Academia Espanola home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in Real Academia Espanola home page</parametrisedStep>
-              <durationInMillis>24243</durationInMillis>
-            </successful>
-            <successful>
-              <step>When the user looks for the word &apos;cerdo&apos;</step>
-              <type>SUCCESSFUL</type>
-              <parametrisedStep>When the user looks for the word &apos;cerdo&apos;</parametrisedStep>
-              <durationInMillis>10339</durationInMillis>
+              <durationInMillis>15614</durationInMillis>
             </successful>
             <failed>
-              <step>When user clicks on search</step>
+              <step>When the user looks for the word &apos;cerdo&apos;</step>
               <type>FAILED</type>
               <throwable>
-                <detailMessage>When user clicks on search</detailMessage>
+                <detailMessage>When the user looks for the word &apos;cerdo&apos;</detailMessage>
                 <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
                   <detailMessage>org.openqa.selenium.ElementNotVisibleException: Timed out after 2 seconds. Element not available
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;jv-VM&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-72-generic&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailMessage>
                   <cause class="org.openqa.selenium.ElementNotVisibleException" defined-in="java.lang.Throwable">
                     <detailMessage>Timed out after 2 seconds. Element not available</detailMessage>
@@ -667,25 +661,25 @@ Driver info: driver.version: unknown</detailMessage>
                       <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
                       <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)</trace>
                       <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)</trace>
-                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)</trace>
                       <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                       <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                       <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
                       <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                       <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                      <trace>com.sun.proxy.$Proxy21.click(Unknown Source)</trace>
-                      <trace>javier_jbehave_serenity.pages.RAE_Page.lookup_terms(RAE_Page.java:30)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.clicks_button(EndUserSteps.java:37)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.CGLIB$clicks_button$4(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61$$FastClassByCGLIB$$6987942b.invoke(&lt;generated&gt;)</trace>
+                      <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
+                      <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
                       <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                       <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                       <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                       <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -723,8 +717,8 @@ Driver info: driver.version: unknown</detailMessage>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                     <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -752,7 +746,7 @@ Driver info: driver.version: unknown</detailMessage>
                   </suppressedExceptions>
                   <detailedMessage>Timed out after 2 seconds. Element not available
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;jv-VM&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-72-generic&apos;, java.version: &apos;1.8.0_121&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailedMessage>
                   <stackTrace>
                     <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)</trace>
@@ -761,25 +755,25 @@ Driver info: driver.version: unknown</detailedMessage>
                     <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
                     <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)</trace>
                     <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)</trace>
-                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                     <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
                     <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                     <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                    <trace>com.sun.proxy.$Proxy21.click(Unknown Source)</trace>
-                    <trace>javier_jbehave_serenity.pages.RAE_Page.lookup_terms(RAE_Page.java:30)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.clicks_button(EndUserSteps.java:37)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.CGLIB$clicks_button$4(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61$$FastClassByCGLIB$$6987942b.invoke(&lt;generated&gt;)</trace>
+                    <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
+                    <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
                     <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
                     <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
@@ -825,11 +819,17 @@ Driver info: driver.version: unknown</detailedMessage>
                   <c class="list"/>
                   <list/>
                 </suppressedExceptions>
-                <uuid>5dde509f-232f-4e34-bab3-af8da3d0338a</uuid>
+                <uuid>44410f04-d554-475d-9dd5-e3f365fd0e4b</uuid>
               </throwable>
-              <parametrisedStep>When user clicks on search</parametrisedStep>
-              <durationInMillis>13645</durationInMillis>
+              <parametrisedStep>When the user looks for the word &apos;cerdo&apos;</parametrisedStep>
+              <durationInMillis>6562</durationInMillis>
             </failed>
+            <notPerformed>
+              <step>When user clicks on search</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When user clicks on search</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
             <notPerformed>
               <step>Then user should see the &apos;cerdo, da&apos;</step>
               <type>NOT_PERFORMED</type>

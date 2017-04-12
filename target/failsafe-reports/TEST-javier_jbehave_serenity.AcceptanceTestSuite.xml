@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="javier_jbehave_serenity.AcceptanceTestSuite" time="106.765" tests="9" errors="2" skipped="1" failures="2">
+<testsuite name="javier_jbehave_serenity.AcceptanceTestSuite" time="44.698" tests="9" errors="2" skipped="2" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/jv/workspace/javier_jbehave_serenity"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\javier.vildozo\workspace\RAE_JBHAVE_SERENITY"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
+    <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/jv/workspace/javier_jbehave_serenity"/>
+    <property name="user.dir" value="C:\Users\javier.vildozo\workspace\RAE_JBHAVE_SERENITY"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.io.tmpdir" value="C:\Users\JAVIER~1.VIL\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/jv/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf924021227196862619.tmp"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\javier.vildozo\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8601136792673165879.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\firefox-sdk\bin\firefox.exe;C:\Program Files\firefox-sdk\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="maven.test.failure.ignore" value="true"/>
-    <property name="os.version" value="4.4.0-72-generic"/>
-    <property name="user.home" value="/home/jv"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\javier.vildozo"/>
     <property name="user.timezone" value="America/La_Paz"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="jv"/>
-    <property name="java.class.path" value="/home/jv/eclipse/jee-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="javier.vildozo"/>
+    <property name="java.class.path" value="/C:/Users/javier.vildozo/eclipse/jee-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean verify serenity:aggregate -Dmaven.test.failure.ignore=true"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_121"/>
-    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
-    <property name="securerandom.source" value="file:/dev/./urandom"/>
-    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/home/jv/workspace/javier_jbehave_serenity/EMBEDDED"/>
-    <property name="file.separator" value="/"/>
+    <property name="maven.home" value="C:\Users\javier.vildozo\workspace\RAE_JBHAVE_SERENITY\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="gnome"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.259"/>
-  <testcase name="Given the user is in Real Academia Espanola home page" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="24.246"/>
-  <testcase name="When the user looks for the word &apos;cerdo&apos;" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="17.675"/>
-  <testcase name="When user clicks on search" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="19.381">
-    <error message="Timed out after 2 seconds. Element not available&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;jv-VM&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-72-generic&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.081"/>
+  <testcase name="Given the user is in Real Academia Espanola home page" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="15.619"/>
+  <testcase name="When the user looks for the word &apos;cerdo&apos;" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="8.792">
+    <error message="Timed out after 2 seconds. Element not available&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'jv-VM', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-72-generic', java.version: '1.8.0_121'
+System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
 	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)
 	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
@@ -74,39 +74,44 @@ Driver info: driver.version: unknown
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at javier_jbehave_serenity.pages.RAE_Page.lookup_terms(RAE_Page.java:30)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps.clicks_button(EndUserSteps.java:37)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.CGLIB$clicks_button$4(<generated>)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61$$FastClassByCGLIB$$6987942b.invoke(<generated>)
+	at com.sun.proxy.$Proxy21.type(Unknown Source)
+	at javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(<generated>)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(<generated>)
-	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)
+	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)
 ]]></error>
-    <system-out><![CDATA[When the user looks for the word 'cerdo'
+    <system-out><![CDATA[Given the user is in Real Academia Espanola home page
+]]></system-out>
+  </testcase>
+  <testcase name="When user clicks on search" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks for the word 'cerdo' (FAILED)
+(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown)
 ]]></system-out>
   </testcase>
   <testcase name="Then user should see the &apos;cerdo, da&apos;" classname="javier_jbehave_serenity.steps.DefinitionSteps" time="0">
     <skipped/>
-    <system-out><![CDATA[When user clicks on search (FAILED)
-(net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'jv-VM', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-72-generic', java.version: '1.8.0_121'
-Driver info: driver.version: unknown)
+    <system-out><![CDATA[When user clicks on search (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="Scenario: look for definition of &apos;cerdo&apos;" classname="Scenario: look for definition of &apos;cerdo&apos;" time="19.429">
+  <testcase name="Scenario: look for definition of &apos;cerdo&apos;" classname="Scenario: look for definition of &apos;cerdo&apos;" time="8.827">
     <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -126,7 +131,7 @@ Driver info: driver.version: unknown)
     <system-out><![CDATA[Then user should see the 'cerdo, da' (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="SearchInRealAcademiaEspanola.story" classname="SearchInRealAcademiaEspanola.story" time="21.624">
+  <testcase name="SearchInRealAcademiaEspanola.story" classname="SearchInRealAcademiaEspanola.story" time="9.523">
     <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
@@ -144,14 +149,14 @@ Driver info: driver.version: unknown)
     <system-out><![CDATA[
 net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'jv-VM', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-72-generic', java.version: '1.8.0_121'
+System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
 	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(<generated>)
-	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)
+	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
 	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
@@ -167,16 +172,16 @@ Driver info: driver.version: unknown
 
 TEST FAILED WITH ERROR: look for definition of 'cerdo'
 ---------------------------------------------------------------------
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Clicks button
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Looks for: cerdo
 [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - Timed out after 2 seconds. Element not available
 ]]></system-err>
   </testcase>
-  <testcase name="AfterStories" classname="java.lang.Object" time="0.005"/>
-  <testcase name="javier_jbehave_serenity.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="4.146">
-    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@6e4327c5: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;jv-VM&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-72-generic&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: driver.version: unknown" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
-org.jbehave.core.embedder.PerformableTree$SomethingHappened@6e4327c5: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.001"/>
+  <testcase name="javier_jbehave_serenity.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="1.855">
+    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@5fa1f8e4: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: driver.version: unknown" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@5fa1f8e4: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'jv-VM', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-72-generic', java.version: '1.8.0_121'
+System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
 	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
 	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
@@ -189,7 +194,7 @@ Driver info: driver.version: unknown
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
 </error>
     <system-out><![CDATA[
-Generating reports view to '/home/jv/workspace/javier_jbehave_serenity/target/jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Generating reports view to 'C:\Users\javier.vildozo\workspace\RAE_JBHAVE_SERENITY\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
 Reports view generated with 2 stories (of which 0 pending) containing 1 scenarios (of which 0 pending)
 Failures in reports view: 1 scenarios failed
 ]]></system-out>

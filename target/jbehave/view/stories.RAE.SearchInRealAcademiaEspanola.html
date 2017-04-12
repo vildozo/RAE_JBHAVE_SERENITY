@@ -17,22 +17,22 @@
 <div class="scenario">
 <h2>Scenario: look for definition of 'cerdo'</h2>
 <div class="step successful">Given the user is in Real Academia Espanola home page</div>
-<div class="step successful">When the user looks for the word 'cerdo'</div>
-<div class="step failed">When user clicks on search <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+<div class="step failed">When the user looks for the word 'cerdo' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'jv-VM', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-72-generic', java.version: '1.8.0_121'
+System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown</span></div>
+<div class="step notPerformed">When user clicks on search <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
 <div class="step notPerformed">Then user should see the 'cerdo, da' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
 <pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'jv-VM', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-72-generic', java.version: '1.8.0_121'
+System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
 	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$bb72e61.clicks_button(&lt;generated&gt;)
-	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserClicksOnSearch(DefinitionSteps.java:27)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)
+	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
 	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
