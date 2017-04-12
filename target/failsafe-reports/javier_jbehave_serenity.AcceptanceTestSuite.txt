@@ -1,13 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: javier_jbehave_serenity.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 2, Skipped: 2, Time elapsed: 30.117 sec <<< FAILURE! - in javier_jbehave_serenity.AcceptanceTestSuite
-When the user looks for the word 'cerdo'(javier_jbehave_serenity.steps.DefinitionSteps)  Time elapsed: 8.792 sec  <<< ERROR!
-net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+Tests run: 9, Failures: 2, Errors: 2, Skipped: 2, Time elapsed: 102.755 sec <<< FAILURE! - in javier_jbehave_serenity.AcceptanceTestSuite
+When the user looks for the course 'Software Testing and Verification'(javier_jbehave_serenity.steps.DefinitionSteps)  Time elapsed: 12.241 sec  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
-	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)
 	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)
 	at net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)
 	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)
@@ -20,20 +21,20 @@ Driver info: driver.version: unknown
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
 	at com.sun.proxy.$Proxy21.type(Unknown Source)
-	at javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)
+	at javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)
 	at javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(<generated>)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(<generated>)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(<generated>)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(<generated>)
 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)
 	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)
 
-Scenario: look for definition of 'cerdo'  Time elapsed: 8.827 sec  <<< FAILURE!
+Scenario: look for class of 'qa'  Time elapsed: 12.263 sec  <<< FAILURE!
 java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -50,7 +51,7 @@ java.lang.AssertionError: scenario failed!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-SearchInRealAcademiaEspanola.story  Time elapsed: 9.523 sec  <<< FAILURE!
+SearchInRealAcademiaEspanola.story  Time elapsed: 13.098 sec  <<< FAILURE!
 java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
@@ -65,9 +66,10 @@ java.lang.AssertionError: story failed!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-javier_jbehave_serenity.AcceptanceTestSuite  Time elapsed: 1.855 sec  <<< ERROR!
+javier_jbehave_serenity.AcceptanceTestSuite  Time elapsed: 1.613 sec  <<< ERROR!
 java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
-org.jbehave.core.embedder.PerformableTree$SomethingHappened@5fa1f8e4: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@111f5a42: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown

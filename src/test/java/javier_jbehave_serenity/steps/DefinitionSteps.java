@@ -12,12 +12,12 @@ public class DefinitionSteps {
 	@Steps
 	EndUserSteps endUser;
 	
-	@Given("the user is in Real Academia Espanola home page")
-	public void givenTheUserIsInRealAcademiaEspanolaHomePage(){
+	@Given("the user is in edx.org home page")
+	public void givenTheUserIsInEDXorgHomePage(){
 		endUser.is_the_home_page();
 	}
 	
-	@When("the user looks for the word '$word'")
+	@When("the user looks for the course '$Software Testing and Verification'")
 	public void whenTheUserLooksForTheWord(String word){
 		endUser.looks_for(word);
 	}
@@ -27,7 +27,7 @@ public class DefinitionSteps {
 		endUser.clicks_button();
 	}
 	
-	@Then("user should see the '$definition'")
+	@Then("user should see the 'Software Testing and Verification'")
 	public void then_user_should_see(String definition){
 		endUser.should_see_the_definition(definition);
 	}

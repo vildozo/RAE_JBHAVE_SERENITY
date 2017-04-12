@@ -14,13 +14,13 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.locators.WaitForWebElements;
 import net.thucydides.core.pages.PageObject;
 
-@DefaultUrl("http://www.rae.es/")
+@DefaultUrl("https://www.edx.org")
 public class RAE_Page extends PageObject{
 
-	@FindBy(id="dval")
+	@FindBy(id="edit-search-query-728842394")
     private WebElementFacade searchTerms;
 
-    @FindBy(css=".sbb")
+    @FindBy(id="edit-submit-728842394")
     private WebElementFacade lookupButton;
     
     public void enter_keywords(String keyword) {
@@ -34,10 +34,10 @@ public class RAE_Page extends PageObject{
 //    	buscador.sendKeys(keyword);
 //    }
     
-    public void clickearBottonBusquead(){
-    	WebElement botonBusqueda=getDriver().findElement(By.className("sbb"));
-    	//botonBusquedasendKeys(keyword);
-    }
+//    public void clickearBottonBusquead(){
+//    	WebElement botonBusqueda=getDriver().findElement(By.className("sbb"));
+//    	//botonBusquedasendKeys(keyword);
+//    }
 
     
     public void lookup_terms() {

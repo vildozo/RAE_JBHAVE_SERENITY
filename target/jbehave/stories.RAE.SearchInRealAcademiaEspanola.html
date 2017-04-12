@@ -2,20 +2,22 @@
 <h1>Sample story</h1>
 <div class="path">stories/RAE/SearchInRealAcademiaEspanola.story</div>
 <div class="narrative"><h2>Narrative:</h2>
-<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> search a word in the Royal Academy of Spain</div>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> search a class in EDX.ORG</div>
 <div class="element asA"><span class="keyword asA">As a</span> user</div>
 <div class="element iWantTo"><span class="keyword iWantTo">I want to</span> be able to Search</div>
 </div>
 <div class="scenario">
-<h2>Scenario: look for definition of 'cerdo'</h2>
-<div class="step successful">Given the user is in Real Academia Espanola home page</div>
-<div class="step failed">When the user looks for the word 'cerdo' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+<h2>Scenario: look for class of 'qa'</h2>
+<div class="step successful">Given the user is in edx.org home page</div>
+<div class="step failed">When the user looks for the course 'Software Testing and Verification' <span class="keyword failed">(FAILED)</span><br/><span class="message failed">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown</span></div>
 <div class="step notPerformed">When user clicks on search <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<div class="step notPerformed">Then user should see the 'cerdo, da' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
-<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not available
+<div class="step notPerformed">Then user should see the 'Software Testing and Verification' <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+<pre class="failure">net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
 Driver info: driver.version: unknown
@@ -23,7 +25,7 @@ Driver info: driver.version: unknown
 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)
+	at javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)
 	at javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)
 	(reflection-invoke)
 	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)

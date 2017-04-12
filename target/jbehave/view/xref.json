@@ -7,7 +7,7 @@
           "descriptionAsString": "Sample story"
         },
         "narrative": {
-          "inOrderTo": "search a word in the Royal Academy of Spain",
+          "inOrderTo": "search a class in EDX.ORG",
           "asA": "user",
           "iWantTo": "be able to Search",
           "soThat": ""
@@ -70,7 +70,7 @@
         },
         "scenarios": [
           {
-            "title": "look for definition of 'cerdo'",
+            "title": "look for class of 'qa'",
             "meta": {
               "properties": []
             },
@@ -161,23 +161,23 @@
               "trim": true
             },
             "steps": [
-              "Given the user is in Real Academia Espanola home page",
-              "When the user looks for the word 'cerdo'",
+              "Given the user is in edx.org home page",
+              "When the user looks for the course 'Software Testing and Verification'",
               "When user clicks on search",
-              "Then user should see the 'cerdo, da'"
+              "Then user should see the 'Software Testing and Verification'"
             ]
           }
         ],
         "name": "SearchInRealAcademiaEspanola.story"
       },
-      "localizedNarrative": "In order to search a word in the Royal Academy of Spain\nAs a user\nI want to be able to Search",
+      "localizedNarrative": "In order to search a class in EDX.ORG\nAs a user\nI want to be able to Search",
       "allowed": true,
       "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
           "scenario": {
-            "title": "look for definition of 'cerdo'",
+            "title": "look for class of 'qa'",
             "meta": {
               "properties": []
             },
@@ -268,10 +268,10 @@
               "trim": true
             },
             "steps": [
-              "Given the user is in Real Academia Espanola home page",
-              "When the user looks for the word 'cerdo'",
+              "Given the user is in edx.org home page",
+              "When the user looks for the course 'Software Testing and Verification'",
               "When user clicks on search",
-              "Then user should see the 'cerdo, da'"
+              "Then user should see the 'Software Testing and Verification'"
             ]
           },
           "storyPath": "stories/RAE/SearchInRealAcademiaEspanola.story",
@@ -286,25 +286,25 @@
               "matches": [],
               "results": [
                 {
-                  "step": "Given the user is in Real Academia Espanola home page",
+                  "step": "Given the user is in edx.org home page",
                   "type": "SUCCESSFUL",
-                  "parametrisedStep": "Given the user is in Real Academia Espanola home page",
-                  "durationInMillis": 15614
+                  "parametrisedStep": "Given the user is in edx.org home page",
+                  "durationInMillis": 84351
                 },
                 {
-                  "step": "When the user looks for the word 'cerdo'",
+                  "step": "When the user looks for the course 'Software Testing and Verification'",
                   "type": "FAILED",
                   "throwable": {
-                    "detailMessage": "When the user looks for the word 'cerdo'",
+                    "detailMessage": "When the user looks for the course 'Software Testing and Verification'",
                     "cause": {
                       "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
-                      "detailMessage": "org.openqa.selenium.ElementNotVisibleException: Timed out after 2 seconds. Element not available\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                      "detailMessage": "org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
                       "cause": {
-                        "@class": "org.openqa.selenium.ElementNotVisibleException",
+                        "@class": "org.openqa.selenium.NoSuchElementException",
                         "@defined-in": "java.lang.Throwable",
-                        "detailMessage": "Timed out after 2 seconds. Element not available",
+                        "detailMessage": "Timed out after 2 seconds. Element not found",
                         "stackTrace": [
-                          "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)",
+                          "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
                           "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
                           "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
                           "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
@@ -317,17 +317,17 @@
                           "java.lang.reflect.Method.invoke(Method.java:498)",
                           "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
                           "com.sun.proxy.$Proxy21.type(Unknown Source)",
-                          "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)",
+                          "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)",
                           "javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)",
-                          "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(<generated>)",
-                          "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(<generated>)",
+                          "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(<generated>)",
+                          "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(<generated>)",
                           "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                           "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                           "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                           "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                           "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                           "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                          "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)",
+                          "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)",
                           "javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)",
                           "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                           "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -366,7 +366,7 @@
                         "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
                         "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                         "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)",
+                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)",
                         "javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -393,9 +393,9 @@
                         [],
                         []
                       ],
-                      "detailedMessage": "Timed out after 2 seconds. Element not available\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                      "detailedMessage": "Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
                       "stackTrace": [
-                        "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)",
+                        "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
                         "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
                         "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
                         "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
@@ -408,17 +408,17 @@
                         "java.lang.reflect.Method.invoke(Method.java:498)",
                         "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
                         "com.sun.proxy.$Proxy21.type(Unknown Source)",
-                        "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)",
+                        "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)",
                         "javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)",
-                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(<generated>)",
-                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(<generated>)",
+                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(<generated>)",
+                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(<generated>)",
                         "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                         "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                         "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                         "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                         "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                         "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)",
+                        "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)",
                         "javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                         "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -441,7 +441,7 @@
                         "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
                         "java.lang.Thread.run(Thread.java:745)"
                       ],
-                      "exceptionClass": "org.openqa.selenium.ElementNotVisibleException"
+                      "exceptionClass": "org.openqa.selenium.NoSuchElementException"
                     },
                     "stackTrace": [
                       "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
@@ -465,10 +465,10 @@
                       [],
                       []
                     ],
-                    "uuid": "44410f04-d554-475d-9dd5-e3f365fd0e4b"
+                    "uuid": "5468e400-63e6-4b28-98bd-a7f07facb9db"
                   },
-                  "parametrisedStep": "When the user looks for the word 'cerdo'",
-                  "durationInMillis": 6562
+                  "parametrisedStep": "When the user looks for the course 'Software Testing and Verification'",
+                  "durationInMillis": 9886
                 },
                 {
                   "step": "When user clicks on search",
@@ -477,9 +477,8 @@
                   "durationInMillis": 0
                 },
                 {
-                  "step": "Then user should see the 'cerdo, da'",
+                  "step": "Then user should see the 'Software Testing and Verification'",
                   "type": "NOT_PERFORMED",
-                  "parametrisedStep": "Then user should see the 'cerdo, da'",
                   "durationInMillis": 0
                 }
               ]
@@ -491,7 +490,7 @@
               "properties": []
             },
             "scenario": {
-              "title": "look for definition of 'cerdo'",
+              "title": "look for class of 'qa'",
               "meta": {
                 "properties": []
               },
@@ -582,10 +581,10 @@
                 "trim": true
               },
               "steps": [
-                "Given the user is in Real Academia Espanola home page",
-                "When the user looks for the word 'cerdo'",
+                "Given the user is in edx.org home page",
+                "When the user looks for the course 'Software Testing and Verification'",
                 "When user clicks on search",
-                "Then user should see the 'cerdo, da'"
+                "Then user should see the 'Software Testing and Verification'"
               ]
             }
           },
@@ -596,7 +595,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 27591
+        "durationInMillis": 100253
       },
       "givenStory": false
     }
@@ -604,7 +603,7 @@
   "scenarios": [
     {
       "scenario": {
-        "title": "look for definition of 'cerdo'",
+        "title": "look for class of 'qa'",
         "meta": {
           "properties": []
         },
@@ -695,10 +694,10 @@
           "trim": true
         },
         "steps": [
-          "Given the user is in Real Academia Espanola home page",
-          "When the user looks for the word 'cerdo'",
+          "Given the user is in edx.org home page",
+          "When the user looks for the course 'Software Testing and Verification'",
           "When user clicks on search",
-          "Then user should see the 'cerdo, da'"
+          "Then user should see the 'Software Testing and Verification'"
         ]
       },
       "storyPath": "stories/RAE/SearchInRealAcademiaEspanola.story",
@@ -713,25 +712,25 @@
           "matches": [],
           "results": [
             {
-              "step": "Given the user is in Real Academia Espanola home page",
+              "step": "Given the user is in edx.org home page",
               "type": "SUCCESSFUL",
-              "parametrisedStep": "Given the user is in Real Academia Espanola home page",
-              "durationInMillis": 15614
+              "parametrisedStep": "Given the user is in edx.org home page",
+              "durationInMillis": 84351
             },
             {
-              "step": "When the user looks for the word 'cerdo'",
+              "step": "When the user looks for the course 'Software Testing and Verification'",
               "type": "FAILED",
               "throwable": {
-                "detailMessage": "When the user looks for the word 'cerdo'",
+                "detailMessage": "When the user looks for the course 'Software Testing and Verification'",
                 "cause": {
                   "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
-                  "detailMessage": "org.openqa.selenium.ElementNotVisibleException: Timed out after 2 seconds. Element not available\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                  "detailMessage": "org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
                   "cause": {
-                    "@class": "org.openqa.selenium.ElementNotVisibleException",
+                    "@class": "org.openqa.selenium.NoSuchElementException",
                     "@defined-in": "java.lang.Throwable",
-                    "detailMessage": "Timed out after 2 seconds. Element not available",
+                    "detailMessage": "Timed out after 2 seconds. Element not found",
                     "stackTrace": [
-                      "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)",
+                      "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
                       "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
                       "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
                       "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
@@ -744,17 +743,17 @@
                       "java.lang.reflect.Method.invoke(Method.java:498)",
                       "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
                       "com.sun.proxy.$Proxy21.type(Unknown Source)",
-                      "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)",
+                      "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)",
                       "javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)",
-                      "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(<generated>)",
-                      "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(<generated>)",
+                      "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(<generated>)",
+                      "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(<generated>)",
                       "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                       "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                       "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                       "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                       "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                       "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                      "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)",
+                      "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)",
                       "javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)",
                       "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                       "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -793,7 +792,7 @@
                     "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
                     "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                     "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)",
+                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)",
                     "javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -820,9 +819,9 @@
                     [],
                     []
                   ],
-                  "detailedMessage": "Timed out after 2 seconds. Element not available\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                  "detailedMessage": "Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
                   "stackTrace": [
-                    "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)",
+                    "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
                     "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
                     "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
                     "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
@@ -835,17 +834,17 @@
                     "java.lang.reflect.Method.invoke(Method.java:498)",
                     "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
                     "com.sun.proxy.$Proxy21.type(Unknown Source)",
-                    "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)",
+                    "javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)",
                     "javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)",
-                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(<generated>)",
-                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(<generated>)",
+                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(<generated>)",
+                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(<generated>)",
                     "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
                     "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
                     "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
                     "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
                     "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
                     "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
-                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(<generated>)",
+                    "javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(<generated>)",
                     "javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
                     "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
@@ -868,7 +867,7 @@
                     "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
                     "java.lang.Thread.run(Thread.java:745)"
                   ],
-                  "exceptionClass": "org.openqa.selenium.ElementNotVisibleException"
+                  "exceptionClass": "org.openqa.selenium.NoSuchElementException"
                 },
                 "stackTrace": [
                   "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
@@ -892,10 +891,10 @@
                   [],
                   []
                 ],
-                "uuid": "44410f04-d554-475d-9dd5-e3f365fd0e4b"
+                "uuid": "5468e400-63e6-4b28-98bd-a7f07facb9db"
               },
-              "parametrisedStep": "When the user looks for the word 'cerdo'",
-              "durationInMillis": 6562
+              "parametrisedStep": "When the user looks for the course 'Software Testing and Verification'",
+              "durationInMillis": 9886
             },
             {
               "step": "When user clicks on search",
@@ -904,9 +903,8 @@
               "durationInMillis": 0
             },
             {
-              "step": "Then user should see the 'cerdo, da'",
+              "step": "Then user should see the 'Software Testing and Verification'",
               "type": "NOT_PERFORMED",
-              "parametrisedStep": "Then user should see the 'cerdo, da'",
               "durationInMillis": 0
             }
           ]
@@ -918,7 +916,7 @@
           "properties": []
         },
         "scenario": {
-          "title": "look for definition of 'cerdo'",
+          "title": "look for class of 'qa'",
           "meta": {
             "properties": []
           },
@@ -1009,10 +1007,10 @@
             "trim": true
           },
           "steps": [
-            "Given the user is in Real Academia Espanola home page",
-            "When the user looks for the word 'cerdo'",
+            "Given the user is in edx.org home page",
+            "When the user looks for the course 'Software Testing and Verification'",
             "When user clicks on search",
-            "Then user should see the 'cerdo, da'"
+            "Then user should see the 'Software Testing and Verification'"
           ]
         }
       },

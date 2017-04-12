@@ -7,7 +7,7 @@
           <descriptionAsString>Sample story</descriptionAsString>
         </description>
         <narrative>
-          <inOrderTo>search a word in the Royal Academy of Spain</inOrderTo>
+          <inOrderTo>search a class in EDX.ORG</inOrderTo>
           <asA>user</asA>
           <iWantTo>be able to Search</iWantTo>
           <soThat></soThat>
@@ -61,7 +61,7 @@
         </lifecycle>
         <scenarios>
           <scenario>
-            <title>look for definition of &apos;cerdo&apos;</title>
+            <title>look for class of &apos;qa&apos;</title>
             <meta>
               <properties/>
             </meta>
@@ -134,16 +134,16 @@
               <trim>true</trim>
             </examplesTable>
             <steps>
-              <string>Given the user is in Real Academia Espanola home page</string>
-              <string>When the user looks for the word &apos;cerdo&apos;</string>
+              <string>Given the user is in edx.org home page</string>
+              <string>When the user looks for the course &apos;Software Testing and Verification&apos;</string>
               <string>When user clicks on search</string>
-              <string>Then user should see the &apos;cerdo, da&apos;</string>
+              <string>Then user should see the &apos;Software Testing and Verification&apos;</string>
             </steps>
           </scenario>
         </scenarios>
         <name>SearchInRealAcademiaEspanola.story</name>
       </story>
-      <localizedNarrative>In order to search a word in the Royal Academy of Spain
+      <localizedNarrative>In order to search a class in EDX.ORG
 As a user
 I want to be able to Search</localizedNarrative>
       <allowed>true</allowed>
@@ -152,7 +152,7 @@ I want to be able to Search</localizedNarrative>
       <scenarios>
         <performableScenario>
           <scenario>
-            <title>look for definition of &apos;cerdo&apos;</title>
+            <title>look for class of &apos;qa&apos;</title>
             <meta>
               <properties/>
             </meta>
@@ -225,10 +225,10 @@ I want to be able to Search</localizedNarrative>
               <trim>true</trim>
             </examplesTable>
             <steps>
-              <string>Given the user is in Real Academia Espanola home page</string>
-              <string>When the user looks for the word &apos;cerdo&apos;</string>
+              <string>Given the user is in edx.org home page</string>
+              <string>When the user looks for the course &apos;Software Testing and Verification&apos;</string>
               <string>When user clicks on search</string>
-              <string>Then user should see the &apos;cerdo, da&apos;</string>
+              <string>Then user should see the &apos;Software Testing and Verification&apos;</string>
             </steps>
           </scenario>
           <storyPath>stories/RAE/SearchInRealAcademiaEspanola.story</storyPath>
@@ -243,25 +243,26 @@ I want to be able to Search</localizedNarrative>
               <matches/>
               <results>
                 <successful>
-                  <step>Given the user is in Real Academia Espanola home page</step>
+                  <step>Given the user is in edx.org home page</step>
                   <type>SUCCESSFUL</type>
-                  <parametrisedStep>Given the user is in Real Academia Espanola home page</parametrisedStep>
-                  <durationInMillis>15614</durationInMillis>
+                  <parametrisedStep>Given the user is in edx.org home page</parametrisedStep>
+                  <durationInMillis>84351</durationInMillis>
                 </successful>
                 <failed>
-                  <step>When the user looks for the word &apos;cerdo&apos;</step>
+                  <step>When the user looks for the course &apos;Software Testing and Verification&apos;</step>
                   <type>FAILED</type>
                   <throwable>
-                    <detailMessage>When the user looks for the word &apos;cerdo&apos;</detailMessage>
+                    <detailMessage>When the user looks for the course &apos;Software Testing and Verification&apos;</detailMessage>
                     <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
-                      <detailMessage>org.openqa.selenium.ElementNotVisibleException: Timed out after 2 seconds. Element not available
+                      <detailMessage>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailMessage>
-                      <cause class="org.openqa.selenium.ElementNotVisibleException" defined-in="java.lang.Throwable">
-                        <detailMessage>Timed out after 2 seconds. Element not available</detailMessage>
+                      <cause class="org.openqa.selenium.NoSuchElementException" defined-in="java.lang.Throwable">
+                        <detailMessage>Timed out after 2 seconds. Element not found</detailMessage>
                         <stackTrace>
-                          <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)</trace>
+                          <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)</trace>
                           <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)</trace>
                           <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
                           <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
@@ -274,17 +275,17 @@ Driver info: driver.version: unknown</detailMessage>
                           <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                           <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
                           <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
-                          <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                          <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)</trace>
                           <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(&lt;generated&gt;)</trace>
                           <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                           <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)</trace>
                           <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                           <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                           <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -323,7 +324,7 @@ Driver info: driver.version: unknown</detailMessage>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)</trace>
                         <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -350,12 +351,13 @@ Driver info: driver.version: unknown</detailMessage>
                         <c class="list"/>
                         <list/>
                       </suppressedExceptions>
-                      <detailedMessage>Timed out after 2 seconds. Element not available
+                      <detailedMessage>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailedMessage>
                       <stackTrace>
-                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)</trace>
+                        <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)</trace>
                         <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)</trace>
                         <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
                         <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
@@ -368,17 +370,17 @@ Driver info: driver.version: unknown</detailedMessage>
                         <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                         <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
                         <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
-                        <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                        <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)</trace>
                         <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(&lt;generated&gt;)</trace>
                         <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                         <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)</trace>
                         <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                         <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -401,7 +403,7 @@ Driver info: driver.version: unknown</detailedMessage>
                         <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
                         <trace>java.lang.Thread.run(Thread.java:745)</trace>
                       </stackTrace>
-                      <exceptionClass>org.openqa.selenium.ElementNotVisibleException</exceptionClass>
+                      <exceptionClass>org.openqa.selenium.NoSuchElementException</exceptionClass>
                     </cause>
                     <stackTrace>
                       <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
@@ -425,10 +427,10 @@ Driver info: driver.version: unknown</detailedMessage>
                       <c class="list"/>
                       <list/>
                     </suppressedExceptions>
-                    <uuid>44410f04-d554-475d-9dd5-e3f365fd0e4b</uuid>
+                    <uuid>5468e400-63e6-4b28-98bd-a7f07facb9db</uuid>
                   </throwable>
-                  <parametrisedStep>When the user looks for the word &apos;cerdo&apos;</parametrisedStep>
-                  <durationInMillis>6562</durationInMillis>
+                  <parametrisedStep>When the user looks for the course &apos;Software Testing and Verification&apos;</parametrisedStep>
+                  <durationInMillis>9886</durationInMillis>
                 </failed>
                 <notPerformed>
                   <step>When user clicks on search</step>
@@ -437,9 +439,8 @@ Driver info: driver.version: unknown</detailedMessage>
                   <durationInMillis>0</durationInMillis>
                 </notPerformed>
                 <notPerformed>
-                  <step>Then user should see the &apos;cerdo, da&apos;</step>
+                  <step>Then user should see the &apos;Software Testing and Verification&apos;</step>
                   <type>NOT_PERFORMED</type>
-                  <parametrisedStep>Then user should see the &apos;cerdo, da&apos;</parametrisedStep>
                   <durationInMillis>0</durationInMillis>
                 </notPerformed>
               </results>
@@ -451,7 +452,7 @@ Driver info: driver.version: unknown</detailedMessage>
               <properties/>
             </storyAndScenarioMeta>
             <scenario>
-              <title>look for definition of &apos;cerdo&apos;</title>
+              <title>look for class of &apos;qa&apos;</title>
               <meta>
                 <properties/>
               </meta>
@@ -524,10 +525,10 @@ Driver info: driver.version: unknown</detailedMessage>
                 <trim>true</trim>
               </examplesTable>
               <steps>
-                <string>Given the user is in Real Academia Espanola home page</string>
-                <string>When the user looks for the word &apos;cerdo&apos;</string>
+                <string>Given the user is in edx.org home page</string>
+                <string>When the user looks for the course &apos;Software Testing and Verification&apos;</string>
                 <string>When user clicks on search</string>
-                <string>Then user should see the &apos;cerdo, da&apos;</string>
+                <string>Then user should see the &apos;Software Testing and Verification&apos;</string>
               </steps>
             </scenario>
           </normalPerformableScenario>
@@ -538,7 +539,7 @@ Driver info: driver.version: unknown</detailedMessage>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>27591</durationInMillis>
+        <durationInMillis>100253</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -546,7 +547,7 @@ Driver info: driver.version: unknown</detailedMessage>
   <scenarios>
     <performableScenario>
       <scenario>
-        <title>look for definition of &apos;cerdo&apos;</title>
+        <title>look for class of &apos;qa&apos;</title>
         <meta>
           <properties/>
         </meta>
@@ -619,10 +620,10 @@ Driver info: driver.version: unknown</detailedMessage>
           <trim>true</trim>
         </examplesTable>
         <steps>
-          <string>Given the user is in Real Academia Espanola home page</string>
-          <string>When the user looks for the word &apos;cerdo&apos;</string>
+          <string>Given the user is in edx.org home page</string>
+          <string>When the user looks for the course &apos;Software Testing and Verification&apos;</string>
           <string>When user clicks on search</string>
-          <string>Then user should see the &apos;cerdo, da&apos;</string>
+          <string>Then user should see the &apos;Software Testing and Verification&apos;</string>
         </steps>
       </scenario>
       <storyPath>stories/RAE/SearchInRealAcademiaEspanola.story</storyPath>
@@ -637,25 +638,26 @@ Driver info: driver.version: unknown</detailedMessage>
           <matches/>
           <results>
             <successful>
-              <step>Given the user is in Real Academia Espanola home page</step>
+              <step>Given the user is in edx.org home page</step>
               <type>SUCCESSFUL</type>
-              <parametrisedStep>Given the user is in Real Academia Espanola home page</parametrisedStep>
-              <durationInMillis>15614</durationInMillis>
+              <parametrisedStep>Given the user is in edx.org home page</parametrisedStep>
+              <durationInMillis>84351</durationInMillis>
             </successful>
             <failed>
-              <step>When the user looks for the word &apos;cerdo&apos;</step>
+              <step>When the user looks for the course &apos;Software Testing and Verification&apos;</step>
               <type>FAILED</type>
               <throwable>
-                <detailMessage>When the user looks for the word &apos;cerdo&apos;</detailMessage>
+                <detailMessage>When the user looks for the course &apos;Software Testing and Verification&apos;</detailMessage>
                 <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
-                  <detailMessage>org.openqa.selenium.ElementNotVisibleException: Timed out after 2 seconds. Element not available
+                  <detailMessage>org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailMessage>
-                  <cause class="org.openqa.selenium.ElementNotVisibleException" defined-in="java.lang.Throwable">
-                    <detailMessage>Timed out after 2 seconds. Element not available</detailMessage>
+                  <cause class="org.openqa.selenium.NoSuchElementException" defined-in="java.lang.Throwable">
+                    <detailMessage>Timed out after 2 seconds. Element not found</detailMessage>
                     <stackTrace>
-                      <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)</trace>
+                      <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)</trace>
                       <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)</trace>
                       <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
                       <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
@@ -668,17 +670,17 @@ Driver info: driver.version: unknown</detailMessage>
                       <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                       <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
                       <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
-                      <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                      <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)</trace>
                       <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(&lt;generated&gt;)</trace>
                       <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                       <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)</trace>
                       <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                       <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                       <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -717,7 +719,7 @@ Driver info: driver.version: unknown</detailMessage>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)</trace>
                     <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -744,12 +746,13 @@ Driver info: driver.version: unknown</detailMessage>
                     <c class="list"/>
                     <list/>
                   </suppressedExceptions>
-                  <detailedMessage>Timed out after 2 seconds. Element not available
+                  <detailedMessage>Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
 System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
 Driver info: driver.version: unknown</detailedMessage>
                   <stackTrace>
-                    <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:147)</trace>
+                    <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)</trace>
                     <trace>net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)</trace>
                     <trace>net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)</trace>
                     <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)</trace>
@@ -762,17 +765,17 @@ Driver info: driver.version: unknown</detailedMessage>
                     <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
                     <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
                     <trace>com.sun.proxy.$Proxy21.type(Unknown Source)</trace>
-                    <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:26)</trace>
+                    <trace>javier_jbehave_serenity.pages.RAE_Page.enter_keywords(RAE_Page.java:27)</trace>
                     <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps.looks_for(EndUserSteps.java:28)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428$$FastClassByCGLIB$$fc6b67e8.invoke(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.CGLIB$looks_for$2(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4$$FastClassByCGLIB$$12678075.invoke(&lt;generated&gt;)</trace>
                     <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
                     <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$75082428.looks_for(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$2a2bc0e4.looks_for(&lt;generated&gt;)</trace>
                     <trace>javier_jbehave_serenity.steps.DefinitionSteps.whenTheUserLooksForTheWord(DefinitionSteps.java:22)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
                     <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
@@ -795,7 +798,7 @@ Driver info: driver.version: unknown</detailedMessage>
                     <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
                     <trace>java.lang.Thread.run(Thread.java:745)</trace>
                   </stackTrace>
-                  <exceptionClass>org.openqa.selenium.ElementNotVisibleException</exceptionClass>
+                  <exceptionClass>org.openqa.selenium.NoSuchElementException</exceptionClass>
                 </cause>
                 <stackTrace>
                   <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
@@ -819,10 +822,10 @@ Driver info: driver.version: unknown</detailedMessage>
                   <c class="list"/>
                   <list/>
                 </suppressedExceptions>
-                <uuid>44410f04-d554-475d-9dd5-e3f365fd0e4b</uuid>
+                <uuid>5468e400-63e6-4b28-98bd-a7f07facb9db</uuid>
               </throwable>
-              <parametrisedStep>When the user looks for the word &apos;cerdo&apos;</parametrisedStep>
-              <durationInMillis>6562</durationInMillis>
+              <parametrisedStep>When the user looks for the course &apos;Software Testing and Verification&apos;</parametrisedStep>
+              <durationInMillis>9886</durationInMillis>
             </failed>
             <notPerformed>
               <step>When user clicks on search</step>
@@ -831,9 +834,8 @@ Driver info: driver.version: unknown</detailedMessage>
               <durationInMillis>0</durationInMillis>
             </notPerformed>
             <notPerformed>
-              <step>Then user should see the &apos;cerdo, da&apos;</step>
+              <step>Then user should see the &apos;Software Testing and Verification&apos;</step>
               <type>NOT_PERFORMED</type>
-              <parametrisedStep>Then user should see the &apos;cerdo, da&apos;</parametrisedStep>
               <durationInMillis>0</durationInMillis>
             </notPerformed>
           </results>
@@ -845,7 +847,7 @@ Driver info: driver.version: unknown</detailedMessage>
           <properties/>
         </storyAndScenarioMeta>
         <scenario>
-          <title>look for definition of &apos;cerdo&apos;</title>
+          <title>look for class of &apos;qa&apos;</title>
           <meta>
             <properties/>
           </meta>
@@ -918,10 +920,10 @@ Driver info: driver.version: unknown</detailedMessage>
             <trim>true</trim>
           </examplesTable>
           <steps>
-            <string>Given the user is in Real Academia Espanola home page</string>
-            <string>When the user looks for the word &apos;cerdo&apos;</string>
+            <string>Given the user is in edx.org home page</string>
+            <string>When the user looks for the course &apos;Software Testing and Verification&apos;</string>
             <string>When user clicks on search</string>
-            <string>Then user should see the &apos;cerdo, da&apos;</string>
+            <string>Then user should see the &apos;Software Testing and Verification&apos;</string>
           </steps>
         </scenario>
       </normalPerformableScenario>
