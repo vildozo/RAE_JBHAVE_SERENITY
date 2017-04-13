@@ -9,19 +9,24 @@ import org.openqa.selenium.WebElement;
 
 import ch.lambdaj.function.convert.Converter;
 import net.serenitybdd.core.annotations.findby.FindBy;
+import net.serenitybdd.core.annotations.findby.How;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.locators.WaitForWebElements;
 import net.thucydides.core.pages.PageObject;
 
-@DefaultUrl("https://www.edx.org")
+@DefaultUrl("https://www.google.com")
 public class RAE_Page extends PageObject{
 
-	@FindBy(id="edit-search-query-728842394")
+	@FindBy(id="lst-ib")
     private WebElementFacade searchTerms;
 
-    @FindBy(id="edit-submit-728842394")
+    @FindBy(id="_fZl")
     private WebElementFacade lookupButton;
+    
+    //nueva forma
+//    @FindBy(how = How.NAME, using = "btnK")
+//    private WebElementFacade lookupButton;
     
     public void enter_keywords(String keyword) {
         searchTerms.type(keyword);
@@ -45,8 +50,8 @@ public class RAE_Page extends PageObject{
     }
 
     public List<String> getDefinitions() {
-        WebElementFacade definitionList = find(By.tagName("header"));
-        List<WebElement> results = definitionList.findElements(By.className("f"));
+        WebElementFacade definitionList = find(By.tagName("div"));
+        List<WebElement> results = definitionList.findElements(By.className("_Rm"));
         return convert(results, toStrings());
     }
 

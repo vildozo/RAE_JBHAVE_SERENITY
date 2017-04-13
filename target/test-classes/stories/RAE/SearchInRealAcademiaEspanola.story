@@ -1,12 +1,12 @@
 Sample story
 
 Narrative:
-In order to search a class in EDX.ORG
+In order to be able to clear any doubts
 As a user 
-I want to be able to Search
+I want to be able to search for my doubts and get where i can find answers
 					 
-Scenario:  look for class of 'Software Testing and Verification'
-Given the user is in edx.org home page
-When the user looks for the course 'Software Testing and Verification'
+Scenario:  Search in google for  a term
+Given the user is in google home page
+When the user looks for 'best buy'
 When user clicks on search
-Then user should see the 'Software Testing and Verification'
+Then user should see the 'www.bestbuy.com'
