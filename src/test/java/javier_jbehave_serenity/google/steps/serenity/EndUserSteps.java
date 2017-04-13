@@ -1,4 +1,4 @@
-package javier_jbehave_serenity.steps.serenity;
+package javier_jbehave_serenity.google.steps.serenity;
 
 import net.thucydides.core.annotations.Step;
 
@@ -6,7 +6,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
 
-import javier_jbehave_serenity.pages.RAE_Page;
+import javier_jbehave_serenity.google.pages.RAE_Page;
 public class EndUserSteps {
 
 	RAE_Page rae_page;

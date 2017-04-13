@@ -1,4 +1,4 @@
-package javier_jbehave_serenity;
+package javier_jbehave_serenity.comteco;
 
 import net.serenitybdd.jbehave.SerenityStories;
 

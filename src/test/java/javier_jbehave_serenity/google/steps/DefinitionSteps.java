@@ -1,10 +1,10 @@
-package javier_jbehave_serenity.steps;
+package javier_jbehave_serenity.google.steps;
 
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
-import javier_jbehave_serenity.steps.serenity.EndUserSteps;
+import javier_jbehave_serenity.google.steps.serenity.EndUserSteps;
 import net.thucydides.core.annotations.Steps;
 
 public class DefinitionSteps {

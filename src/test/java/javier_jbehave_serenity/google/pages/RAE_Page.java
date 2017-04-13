@@ -1,4 +1,4 @@
-package javier_jbehave_serenity.pages;
+package javier_jbehave_serenity.google.pages;
 
 import static ch.lambdaj.Lambda.convert;
 

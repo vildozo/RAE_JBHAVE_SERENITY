@@ -61,7 +61,7 @@
         </lifecycle>
         <scenarios>
           <scenario>
-            <title>Search in google for  a term</title>
+            <title>Search in google for  best buy</title>
             <meta>
               <properties/>
             </meta>
@@ -152,7 +152,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
       <scenarios>
         <performableScenario>
           <scenario>
-            <title>Search in google for  a term</title>
+            <title>Search in google for  best buy</title>
             <meta>
               <properties/>
             </meta>
@@ -246,25 +246,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
                   <step>Given the user is in google home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in google home page</parametrisedStep>
-                  <durationInMillis>12164</durationInMillis>
+                  <durationInMillis>10349</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user looks for &apos;best buy&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-                  <durationInMillis>509</durationInMillis>
+                  <durationInMillis>472</durationInMillis>
                 </successful>
                 <successful>
                   <step>When user clicks on search</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When user clicks on search</parametrisedStep>
-                  <durationInMillis>318</durationInMillis>
+                  <durationInMillis>466</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-                  <durationInMillis>1469</durationInMillis>
+                  <durationInMillis>1863</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -275,7 +275,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <properties/>
             </storyAndScenarioMeta>
             <scenario>
-              <title>Search in google for  a term</title>
+              <title>Search in google for  best buy</title>
               <meta>
                 <properties/>
               </meta>
@@ -362,7 +362,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>16578</durationInMillis>
+        <durationInMillis>14569</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -370,7 +370,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
   <scenarios>
     <performableScenario>
       <scenario>
-        <title>Search in google for  a term</title>
+        <title>Search in google for  best buy</title>
         <meta>
           <properties/>
         </meta>
@@ -464,25 +464,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in google home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in google home page</parametrisedStep>
-              <durationInMillis>12164</durationInMillis>
+              <durationInMillis>10349</durationInMillis>
             </successful>
             <successful>
               <step>When the user looks for &apos;best buy&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-              <durationInMillis>509</durationInMillis>
+              <durationInMillis>472</durationInMillis>
             </successful>
             <successful>
               <step>When user clicks on search</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When user clicks on search</parametrisedStep>
-              <durationInMillis>318</durationInMillis>
+              <durationInMillis>466</durationInMillis>
             </successful>
             <successful>
               <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-              <durationInMillis>1469</durationInMillis>
+              <durationInMillis>1863</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -493,7 +493,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
           <properties/>
         </storyAndScenarioMeta>
         <scenario>
-          <title>Search in google for  a term</title>
+          <title>Search in google for  best buy</title>
           <meta>
             <properties/>
           </meta>

@@ -70,7 +70,7 @@
         },
         "scenarios": [
           {
-            "title": "Search in google for  a term",
+            "title": "Search in google for  best buy",
             "meta": {
               "properties": []
             },
@@ -177,7 +177,7 @@
       "scenarios": [
         {
           "scenario": {
-            "title": "Search in google for  a term",
+            "title": "Search in google for  best buy",
             "meta": {
               "properties": []
             },
@@ -289,25 +289,25 @@
                   "step": "Given the user is in google home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in google home page",
-                  "durationInMillis": 12164
+                  "durationInMillis": 10349
                 },
                 {
                   "step": "When the user looks for 'best buy'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user looks for 'best buy'",
-                  "durationInMillis": 509
+                  "durationInMillis": 472
                 },
                 {
                   "step": "When user clicks on search",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When user clicks on search",
-                  "durationInMillis": 318
+                  "durationInMillis": 466
                 },
                 {
                   "step": "Then user should see the 'www.bestbuy.com'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-                  "durationInMillis": 1469
+                  "durationInMillis": 1863
                 }
               ]
             },
@@ -318,7 +318,7 @@
               "properties": []
             },
             "scenario": {
-              "title": "Search in google for  a term",
+              "title": "Search in google for  best buy",
               "meta": {
                 "properties": []
               },
@@ -423,7 +423,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 16578
+        "durationInMillis": 14569
       },
       "givenStory": false
     }
@@ -431,7 +431,7 @@
   "scenarios": [
     {
       "scenario": {
-        "title": "Search in google for  a term",
+        "title": "Search in google for  best buy",
         "meta": {
           "properties": []
         },
@@ -543,25 +543,25 @@
               "step": "Given the user is in google home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in google home page",
-              "durationInMillis": 12164
+              "durationInMillis": 10349
             },
             {
               "step": "When the user looks for 'best buy'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user looks for 'best buy'",
-              "durationInMillis": 509
+              "durationInMillis": 472
             },
             {
               "step": "When user clicks on search",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When user clicks on search",
-              "durationInMillis": 318
+              "durationInMillis": 466
             },
             {
               "step": "Then user should see the 'www.bestbuy.com'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-              "durationInMillis": 1469
+              "durationInMillis": 1863
             }
           ]
         },
@@ -572,7 +572,7 @@
           "properties": []
         },
         "scenario": {
-          "title": "Search in google for  a term",
+          "title": "Search in google for  best buy",
           "meta": {
             "properties": []
           },

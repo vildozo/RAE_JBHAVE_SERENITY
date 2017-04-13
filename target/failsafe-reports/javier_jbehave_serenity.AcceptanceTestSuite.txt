@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: javier_jbehave_serenity.AcceptanceTestSuite
--------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.863 sec - in javier_jbehave_serenity.AcceptanceTestSuite
