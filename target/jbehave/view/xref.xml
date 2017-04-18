@@ -2,7 +2,623 @@
   <stories>
     <performableStory>
       <story>
-        <path>stories/RAE/SearchInRealAcademiaEspanola.story</path>
+        <path>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</path>
+        <description>
+          <descriptionAsString>Sample story</descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo>be able to be able to make a phone call</inOrderTo>
+          <asA>user</asA>
+          <iWantTo>be able to look for a person in the Guia Telefonica of COMTECTO</iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>user can be able to search for a person in the phone guide Comteco</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is in the guia telefonica Comteco homepage</string>
+              <string>When the user selects Nombre &amp; Apellido</string>
+              <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
+              <string>When you click on botton</string>
+              <string>Then I should see number &apos;4433736&apos;</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>BusquedaDePersonaEnGuiaTelefonicaComtecto.story</name>
+      </story>
+      <localizedNarrative>In order to be able to be able to make a phone call
+As a user
+I want to be able to look for a person in the Guia Telefonica of COMTECTO</localizedNarrative>
+      <allowed>true</allowed>
+      <status>FAILED</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>user can be able to search for a person in the phone guide Comteco</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given the user is in the guia telefonica Comteco homepage</string>
+              <string>When the user selects Nombre &amp; Apellido</string>
+              <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
+              <string>When you click on botton</string>
+              <string>Then I should see number &apos;4433736&apos;</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given the user is in the guia telefonica Comteco homepage</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
+                  <durationInMillis>17888</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When the user selects Nombre &amp; Apellido</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
+                  <durationInMillis>787</durationInMillis>
+                </successful>
+                <failed>
+                  <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
+                  <type>FAILED</type>
+                  <throwable>
+                    <detailMessage>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</detailMessage>
+                    <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
+                      <detailMessage>org.openqa.selenium.WebDriverException: Element must be user-editable in order to clear it.
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c0ae72ab-b632-4e35-9f7c-1442ac519054</detailMessage>
+                      <cause class="org.openqa.selenium.WebDriverException" defined-in="java.lang.Throwable">
+                        <detailMessage>Element must be user-editable in order to clear it.
+Command duration or timeout: 2.05 seconds</detailMessage>
+                        <cause class="org.openqa.selenium.WebDriverException">
+                          <detailMessage>Element must be user-editable in order to clear it.</detailMessage>
+                          <stackTrace>
+                            <trace>&lt;anonymous class&gt;.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)</trace>
+                            <trace>&lt;anonymous class&gt;.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)</trace>
+                            <trace>&lt;anonymous class&gt;.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)</trace>
+                            <trace>&lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)</trace>
+                            <trace>&lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)</trace>
+                          </stackTrace>
+                          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                            <c class="list"/>
+                            <list/>
+                          </suppressedExceptions>
+                          <extraInfo>
+                            <entry>
+                              <string>Driver info</string>
+                              <string>driver.version: unknown</string>
+                            </entry>
+                          </extraInfo>
+                        </cause>
+                        <stackTrace>
+                          <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                          <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
+                          <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
+                          <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
+                          <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</trace>
+                          <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</trace>
+                          <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</trace>
+                          <trace>org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)</trace>
+                          <trace>org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                          <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)</trace>
+                          <trace>com.sun.proxy.$Proxy22.clear(Unknown Source)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)</trace>
+                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)</trace>
+                          <trace>net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)</trace>
+                          <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)</trace>
+                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)</trace>
+                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(&lt;generated&gt;)</trace>
+                          <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                          <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(&lt;generated&gt;)</trace>
+                          <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                          <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                        </stackTrace>
+                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                          <c class="list"/>
+                          <list/>
+                        </suppressedExceptions>
+                        <extraInfo>
+                          <entry>
+                            <string>Driver info</string>
+                            <string>org.openqa.selenium.firefox.FirefoxDriver</string>
+                          </entry>
+                          <entry>
+                            <string>Capabilities</string>
+                            <string>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]</string>
+                          </entry>
+                          <entry>
+                            <string>Session ID</string>
+                            <string>c0ae72ab-b632-4e35-9f7c-1442ac519054</string>
+                          </entry>
+                        </extraInfo>
+                      </cause>
+                      <stackTrace defined-in="java.lang.Throwable">
+                        <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <detailedMessage>Element must be user-editable in order to clear it.
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c0ae72ab-b632-4e35-9f7c-1442ac519054</detailedMessage>
+                      <stackTrace>
+                        <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                        <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
+                        <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
+                        <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</trace>
+                        <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)</trace>
+                        <trace>org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)</trace>
+                        <trace>com.sun.proxy.$Proxy22.clear(Unknown Source)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)</trace>
+                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)</trace>
+                        <trace>net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)</trace>
+                        <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(&lt;generated&gt;)</trace>
+                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(&lt;generated&gt;)</trace>
+                        <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                      </stackTrace>
+                      <cause class="org.openqa.selenium.WebDriverException">
+                        <detailMessage>Element must be user-editable in order to clear it.</detailMessage>
+                        <stackTrace>
+                          <trace>&lt;anonymous class&gt;.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)</trace>
+                          <trace>&lt;anonymous class&gt;.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)</trace>
+                          <trace>&lt;anonymous class&gt;.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)</trace>
+                          <trace>&lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)</trace>
+                          <trace>&lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)</trace>
+                        </stackTrace>
+                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                          <c class="list"/>
+                          <list/>
+                        </suppressedExceptions>
+                        <extraInfo>
+                          <entry>
+                            <string>Driver info</string>
+                            <string>driver.version: unknown</string>
+                          </entry>
+                        </extraInfo>
+                      </cause>
+                      <exceptionClass>org.openqa.selenium.WebDriverException</exceptionClass>
+                    </cause>
+                    <stackTrace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <uuid>88a3ac72-37d4-4700-804a-4e6277b946c1</uuid>
+                  </throwable>
+                  <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
+                  <durationInMillis>3057</durationInMillis>
+                </failed>
+                <notPerformed>
+                  <step>When you click on botton</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>When you click on botton</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+                <notPerformed>
+                  <step>Then I should see number &apos;4433736&apos;</step>
+                  <type>NOT_PERFORMED</type>
+                  <parametrisedStep>Then I should see number &apos;4433736&apos;</parametrisedStep>
+                  <durationInMillis>0</durationInMillis>
+                </notPerformed>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>user can be able to search for a person in the phone guide Comteco</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given the user is in the guia telefonica Comteco homepage</string>
+                <string>When the user selects Nombre &amp; Apellido</string>
+                <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
+                <string>When you click on botton</string>
+                <string>Then I should see number &apos;4433736&apos;</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>FAILED</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>23419</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+    <performableStory>
+      <story>
+        <path>stories/google/SearchInGoogle.story</path>
         <description>
           <descriptionAsString>Sample story</descriptionAsString>
         </description>
@@ -141,7 +757,7 @@
             </steps>
           </scenario>
         </scenarios>
-        <name>SearchInRealAcademiaEspanola.story</name>
+        <name>SearchInGoogle.story</name>
       </story>
       <localizedNarrative>In order to be able to clear any doubts
 As a user
@@ -231,7 +847,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <string>Then user should see the &apos;www.bestbuy.com&apos;</string>
             </steps>
           </scenario>
-          <storyPath>stories/RAE/SearchInRealAcademiaEspanola.story</storyPath>
+          <storyPath>stories/google/SearchInGoogle.story</storyPath>
           <allowed>true</allowed>
           <normalPerformableScenario>
             <parameters/>
@@ -246,25 +862,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
                   <step>Given the user is in google home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in google home page</parametrisedStep>
-                  <durationInMillis>10349</durationInMillis>
+                  <durationInMillis>9364</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user looks for &apos;best buy&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-                  <durationInMillis>472</durationInMillis>
+                  <durationInMillis>493</durationInMillis>
                 </successful>
                 <successful>
                   <step>When user clicks on search</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When user clicks on search</parametrisedStep>
-                  <durationInMillis>466</durationInMillis>
+                  <durationInMillis>270</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-                  <durationInMillis>1863</durationInMillis>
+                  <durationInMillis>2225</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -362,12 +978,469 @@ I want to be able to search for my doubts and get where i can find answers</loca
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>14569</durationInMillis>
+        <durationInMillis>13845</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
   </stories>
   <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>user can be able to search for a person in the phone guide Comteco</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given the user is in the guia telefonica Comteco homepage</string>
+          <string>When the user selects Nombre &amp; Apellido</string>
+          <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
+          <string>When you click on botton</string>
+          <string>Then I should see number &apos;4433736&apos;</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given the user is in the guia telefonica Comteco homepage</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
+              <durationInMillis>17888</durationInMillis>
+            </successful>
+            <successful>
+              <step>When the user selects Nombre &amp; Apellido</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
+              <durationInMillis>787</durationInMillis>
+            </successful>
+            <failed>
+              <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
+              <type>FAILED</type>
+              <throwable>
+                <detailMessage>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</detailMessage>
+                <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
+                  <detailMessage>org.openqa.selenium.WebDriverException: Element must be user-editable in order to clear it.
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c0ae72ab-b632-4e35-9f7c-1442ac519054</detailMessage>
+                  <cause class="org.openqa.selenium.WebDriverException" defined-in="java.lang.Throwable">
+                    <detailMessage>Element must be user-editable in order to clear it.
+Command duration or timeout: 2.05 seconds</detailMessage>
+                    <cause class="org.openqa.selenium.WebDriverException">
+                      <detailMessage>Element must be user-editable in order to clear it.</detailMessage>
+                      <stackTrace>
+                        <trace>&lt;anonymous class&gt;.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)</trace>
+                        <trace>&lt;anonymous class&gt;.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)</trace>
+                        <trace>&lt;anonymous class&gt;.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)</trace>
+                        <trace>&lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)</trace>
+                        <trace>&lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)</trace>
+                      </stackTrace>
+                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                        <c class="list"/>
+                        <list/>
+                      </suppressedExceptions>
+                      <extraInfo>
+                        <entry>
+                          <string>Driver info</string>
+                          <string>driver.version: unknown</string>
+                        </entry>
+                      </extraInfo>
+                    </cause>
+                    <stackTrace>
+                      <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                      <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
+                      <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
+                      <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
+                      <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</trace>
+                      <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</trace>
+                      <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</trace>
+                      <trace>org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)</trace>
+                      <trace>org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                      <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)</trace>
+                      <trace>com.sun.proxy.$Proxy22.clear(Unknown Source)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)</trace>
+                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)</trace>
+                      <trace>net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)</trace>
+                      <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)</trace>
+                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)</trace>
+                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(&lt;generated&gt;)</trace>
+                      <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                      <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(&lt;generated&gt;)</trace>
+                      <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <extraInfo>
+                      <entry>
+                        <string>Driver info</string>
+                        <string>org.openqa.selenium.firefox.FirefoxDriver</string>
+                      </entry>
+                      <entry>
+                        <string>Capabilities</string>
+                        <string>Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]</string>
+                      </entry>
+                      <entry>
+                        <string>Session ID</string>
+                        <string>c0ae72ab-b632-4e35-9f7c-1442ac519054</string>
+                      </entry>
+                    </extraInfo>
+                  </cause>
+                  <stackTrace defined-in="java.lang.Throwable">
+                    <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                    <c class="list"/>
+                    <list/>
+                  </suppressedExceptions>
+                  <detailedMessage>Element must be user-editable in order to clear it.
+Command duration or timeout: 2.05 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c0ae72ab-b632-4e35-9f7c-1442ac519054</detailedMessage>
+                  <stackTrace>
+                    <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)</trace>
+                    <trace>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)</trace>
+                    <trace>java.lang.reflect.Constructor.newInstance(Constructor.java:423)</trace>
+                    <trace>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)</trace>
+                    <trace>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)</trace>
+                    <trace>org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)</trace>
+                    <trace>com.sun.proxy.$Proxy22.clear(Unknown Source)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)</trace>
+                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)</trace>
+                    <trace>net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)</trace>
+                    <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(&lt;generated&gt;)</trace>
+                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
+                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(&lt;generated&gt;)</trace>
+                    <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
+                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
+                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
+                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
+                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                  </stackTrace>
+                  <cause class="org.openqa.selenium.WebDriverException">
+                    <detailMessage>Element must be user-editable in order to clear it.</detailMessage>
+                    <stackTrace>
+                      <trace>&lt;anonymous class&gt;.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)</trace>
+                      <trace>&lt;anonymous class&gt;.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)</trace>
+                      <trace>&lt;anonymous class&gt;.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)</trace>
+                      <trace>&lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)</trace>
+                      <trace>&lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)</trace>
+                    </stackTrace>
+                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                      <c class="list"/>
+                      <list/>
+                    </suppressedExceptions>
+                    <extraInfo>
+                      <entry>
+                        <string>Driver info</string>
+                        <string>driver.version: unknown</string>
+                      </entry>
+                    </extraInfo>
+                  </cause>
+                  <exceptionClass>org.openqa.selenium.WebDriverException</exceptionClass>
+                </cause>
+                <stackTrace>
+                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
+                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
+                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
+                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
+                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
+                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
+                </stackTrace>
+                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+                  <c class="list"/>
+                  <list/>
+                </suppressedExceptions>
+                <uuid>88a3ac72-37d4-4700-804a-4e6277b946c1</uuid>
+              </throwable>
+              <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
+              <durationInMillis>3057</durationInMillis>
+            </failed>
+            <notPerformed>
+              <step>When you click on botton</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>When you click on botton</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+            <notPerformed>
+              <step>Then I should see number &apos;4433736&apos;</step>
+              <type>NOT_PERFORMED</type>
+              <parametrisedStep>Then I should see number &apos;4433736&apos;</parametrisedStep>
+              <durationInMillis>0</durationInMillis>
+            </notPerformed>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>user can be able to search for a person in the phone guide Comteco</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given the user is in the guia telefonica Comteco homepage</string>
+            <string>When the user selects Nombre &amp; Apellido</string>
+            <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
+            <string>When you click on botton</string>
+            <string>Then I should see number &apos;4433736&apos;</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>FAILED</status>
+    </performableScenario>
     <performableScenario>
       <scenario>
         <title>Search in google for  best buy</title>
@@ -449,7 +1522,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
           <string>Then user should see the &apos;www.bestbuy.com&apos;</string>
         </steps>
       </scenario>
-      <storyPath>stories/RAE/SearchInRealAcademiaEspanola.story</storyPath>
+      <storyPath>stories/google/SearchInGoogle.story</storyPath>
       <allowed>true</allowed>
       <normalPerformableScenario>
         <parameters/>
@@ -464,25 +1537,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in google home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in google home page</parametrisedStep>
-              <durationInMillis>10349</durationInMillis>
+              <durationInMillis>9364</durationInMillis>
             </successful>
             <successful>
               <step>When the user looks for &apos;best buy&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-              <durationInMillis>472</durationInMillis>
+              <durationInMillis>493</durationInMillis>
             </successful>
             <successful>
               <step>When user clicks on search</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When user clicks on search</parametrisedStep>
-              <durationInMillis>466</durationInMillis>
+              <durationInMillis>270</durationInMillis>
             </successful>
             <successful>
               <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-              <durationInMillis>1863</durationInMillis>
+              <durationInMillis>2225</durationInMillis>
             </successful>
           </results>
         </steps>

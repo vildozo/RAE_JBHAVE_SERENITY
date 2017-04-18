@@ -2,7 +2,676 @@
   "stories": [
     {
       "story": {
-        "path": "stories/RAE/SearchInRealAcademiaEspanola.story",
+        "path": "stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
+        "description": {
+          "descriptionAsString": "Sample story"
+        },
+        "narrative": {
+          "inOrderTo": "be able to be able to make a phone call",
+          "asA": "user",
+          "iWantTo": "be able to look for a person in the Guia Telefonica of COMTECTO",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "user can be able to search for a person in the phone guide Comteco",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the user is in the guia telefonica Comteco homepage",
+              "When the user selects Nombre & Apellido",
+              "When the user inserts nombre 'guido' and apellido 'vildoso'",
+              "When you click on botton",
+              "Then I should see number '4433736'"
+            ]
+          }
+        ],
+        "name": "BusquedaDePersonaEnGuiaTelefonicaComtecto.story"
+      },
+      "localizedNarrative": "In order to be able to be able to make a phone call\nAs a user\nI want to be able to look for a person in the Guia Telefonica of COMTECTO",
+      "allowed": true,
+      "status": "FAILED",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "user can be able to search for a person in the phone guide Comteco",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given the user is in the guia telefonica Comteco homepage",
+              "When the user selects Nombre & Apellido",
+              "When the user inserts nombre 'guido' and apellido 'vildoso'",
+              "When you click on botton",
+              "Then I should see number '4433736'"
+            ]
+          },
+          "storyPath": "stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given the user is in the guia telefonica Comteco homepage",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
+                  "durationInMillis": 17888
+                },
+                {
+                  "step": "When the user selects Nombre & Apellido",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When the user selects Nombre & Apellido",
+                  "durationInMillis": 787
+                },
+                {
+                  "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "When the user inserts nombre 'guido' and apellido 'vildoso'",
+                    "cause": {
+                      "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                      "detailMessage": "org.openqa.selenium.WebDriverException: Element must be user-editable in order to clear it.\nCommand duration or timeout: 2.05 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: c0ae72ab-b632-4e35-9f7c-1442ac519054",
+                      "cause": {
+                        "@class": "org.openqa.selenium.WebDriverException",
+                        "@defined-in": "java.lang.Throwable",
+                        "detailMessage": "Element must be user-editable in order to clear it.\nCommand duration or timeout: 2.05 seconds",
+                        "cause": {
+                          "@class": "org.openqa.selenium.WebDriverException",
+                          "detailMessage": "Element must be user-editable in order to clear it.",
+                          "stackTrace": [
+                            "<anonymous class>.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)",
+                            "<anonymous class>.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)",
+                            "<anonymous class>.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)",
+                            "<anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)",
+                            "<anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)"
+                          ],
+                          "suppressedExceptions": [
+                            [],
+                            []
+                          ],
+                          "extraInfo": [
+                            [
+                              "Driver info",
+                              "driver.version: unknown"
+                            ]
+                          ]
+                        },
+                        "stackTrace": [
+                          "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
+                          "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
+                          "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
+                          "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)",
+                          "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)",
+                          "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)",
+                          "org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)",
+                          "org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)",
+                          "com.sun.proxy.$Proxy22.clear(Unknown Source)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)",
+                          "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                          "javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)",
+                          "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)",
+                          "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(<generated>)",
+                          "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(<generated>)",
+                          "javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ],
+                        "extraInfo": [
+                          [
+                            "Driver info",
+                            "org.openqa.selenium.firefox.FirefoxDriver"
+                          ],
+                          [
+                            "Capabilities",
+                            "Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]"
+                          ],
+                          [
+                            "Session ID",
+                            "c0ae72ab-b632-4e35-9f7c-1442ac519054"
+                          ]
+                        ]
+                      },
+                      "stackTrace": [
+                        "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(<generated>)",
+                        "javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "detailedMessage": "Element must be user-editable in order to clear it.\nCommand duration or timeout: 2.05 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: c0ae72ab-b632-4e35-9f7c-1442ac519054",
+                      "stackTrace": [
+                        "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
+                        "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
+                        "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
+                        "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)",
+                        "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)",
+                        "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)",
+                        "org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)",
+                        "org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)",
+                        "com.sun.proxy.$Proxy22.clear(Unknown Source)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)",
+                        "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                        "javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)",
+                        "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)",
+                        "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(<generated>)",
+                        "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(<generated>)",
+                        "javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "cause": {
+                        "@class": "org.openqa.selenium.WebDriverException",
+                        "detailMessage": "Element must be user-editable in order to clear it.",
+                        "stackTrace": [
+                          "<anonymous class>.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)",
+                          "<anonymous class>.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)",
+                          "<anonymous class>.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)",
+                          "<anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)",
+                          "<anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ],
+                        "extraInfo": [
+                          [
+                            "Driver info",
+                            "driver.version: unknown"
+                          ]
+                        ]
+                      },
+                      "exceptionClass": "org.openqa.selenium.WebDriverException"
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "88a3ac72-37d4-4700-804a-4e6277b946c1"
+                  },
+                  "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
+                  "durationInMillis": 3057
+                },
+                {
+                  "step": "When you click on botton",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When you click on botton",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then I should see number '4433736'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then I should see number '4433736'",
+                  "durationInMillis": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "user can be able to search for a person in the phone guide Comteco",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given the user is in the guia telefonica Comteco homepage",
+                "When the user selects Nombre & Apellido",
+                "When the user inserts nombre 'guido' and apellido 'vildoso'",
+                "When you click on botton",
+                "Then I should see number '4433736'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "FAILED"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 23419
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/google/SearchInGoogle.story",
         "description": {
           "descriptionAsString": "Sample story"
         },
@@ -168,7 +837,7 @@
             ]
           }
         ],
-        "name": "SearchInRealAcademiaEspanola.story"
+        "name": "SearchInGoogle.story"
       },
       "localizedNarrative": "In order to be able to clear any doubts\nAs a user\nI want to be able to search for my doubts and get where i can find answers",
       "allowed": true,
@@ -274,7 +943,7 @@
               "Then user should see the 'www.bestbuy.com'"
             ]
           },
-          "storyPath": "stories/RAE/SearchInRealAcademiaEspanola.story",
+          "storyPath": "stories/google/SearchInGoogle.story",
           "allowed": true,
           "normalPerformableScenario": {
             "parameters": [],
@@ -289,25 +958,25 @@
                   "step": "Given the user is in google home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in google home page",
-                  "durationInMillis": 10349
+                  "durationInMillis": 9364
                 },
                 {
                   "step": "When the user looks for 'best buy'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user looks for 'best buy'",
-                  "durationInMillis": 472
+                  "durationInMillis": 493
                 },
                 {
                   "step": "When user clicks on search",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When user clicks on search",
-                  "durationInMillis": 466
+                  "durationInMillis": 270
                 },
                 {
                   "step": "Then user should see the 'www.bestbuy.com'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-                  "durationInMillis": 1863
+                  "durationInMillis": 2225
                 }
               ]
             },
@@ -423,12 +1092,497 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 14569
+        "durationInMillis": 13845
       },
       "givenStory": false
     }
   ],
   "scenarios": [
+    {
+      "scenario": {
+        "title": "user can be able to search for a person in the phone guide Comteco",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given the user is in the guia telefonica Comteco homepage",
+          "When the user selects Nombre & Apellido",
+          "When the user inserts nombre 'guido' and apellido 'vildoso'",
+          "When you click on botton",
+          "Then I should see number '4433736'"
+        ]
+      },
+      "storyPath": "stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given the user is in the guia telefonica Comteco homepage",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
+              "durationInMillis": 17888
+            },
+            {
+              "step": "When the user selects Nombre & Apellido",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When the user selects Nombre & Apellido",
+              "durationInMillis": 787
+            },
+            {
+              "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "When the user inserts nombre 'guido' and apellido 'vildoso'",
+                "cause": {
+                  "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                  "detailMessage": "org.openqa.selenium.WebDriverException: Element must be user-editable in order to clear it.\nCommand duration or timeout: 2.05 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: c0ae72ab-b632-4e35-9f7c-1442ac519054",
+                  "cause": {
+                    "@class": "org.openqa.selenium.WebDriverException",
+                    "@defined-in": "java.lang.Throwable",
+                    "detailMessage": "Element must be user-editable in order to clear it.\nCommand duration or timeout: 2.05 seconds",
+                    "cause": {
+                      "@class": "org.openqa.selenium.WebDriverException",
+                      "detailMessage": "Element must be user-editable in order to clear it.",
+                      "stackTrace": [
+                        "<anonymous class>.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)",
+                        "<anonymous class>.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)",
+                        "<anonymous class>.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)",
+                        "<anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)",
+                        "<anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "extraInfo": [
+                        [
+                          "Driver info",
+                          "driver.version: unknown"
+                        ]
+                      ]
+                    },
+                    "stackTrace": [
+                      "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
+                      "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
+                      "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
+                      "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)",
+                      "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)",
+                      "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)",
+                      "org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)",
+                      "org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)",
+                      "com.sun.proxy.$Proxy22.clear(Unknown Source)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)",
+                      "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                      "javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)",
+                      "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)",
+                      "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(<generated>)",
+                      "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(<generated>)",
+                      "javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "extraInfo": [
+                      [
+                        "Driver info",
+                        "org.openqa.selenium.firefox.FirefoxDriver"
+                      ],
+                      [
+                        "Capabilities",
+                        "Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]"
+                      ],
+                      [
+                        "Session ID",
+                        "c0ae72ab-b632-4e35-9f7c-1442ac519054"
+                      ]
+                    ]
+                  },
+                  "stackTrace": [
+                    "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(<generated>)",
+                    "javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "detailedMessage": "Element must be user-editable in order to clear it.\nCommand duration or timeout: 2.05 seconds\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]\nSession ID: c0ae72ab-b632-4e35-9f7c-1442ac519054",
+                  "stackTrace": [
+                    "sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)",
+                    "sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)",
+                    "java.lang.reflect.Constructor.newInstance(Constructor.java:423)",
+                    "org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)",
+                    "org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)",
+                    "org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)",
+                    "org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)",
+                    "org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:140)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)",
+                    "com.sun.proxy.$Proxy22.clear(Unknown Source)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:977)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:598)",
+                    "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                    "javier_jbehave_serenity.comteco.pages.COMTECO_Page.insertNombre(COMTECO_Page.java:51)",
+                    "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.insertar_nombre_apellido_a_campos(EndUserSteps.java:26)",
+                    "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.CGLIB$insertar_nombre_apellido_a_campos$0(<generated>)",
+                    "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106$$FastClassByCGLIB$$8e9b83bb.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$4e3ae106.insertar_nombre_apellido_a_campos(<generated>)",
+                    "javier_jbehave_serenity.comteco.steps.StepDefinitions.when_the_user_inserts_nombre_and_apellido(StepDefinitions.java:28)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "cause": {
+                    "@class": "org.openqa.selenium.WebDriverException",
+                    "detailMessage": "Element must be user-editable in order to clear it.",
+                    "stackTrace": [
+                      "<anonymous class>.bot.Error(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:681)",
+                      "<anonymous class>.bot.action.clear(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11685)",
+                      "<anonymous class>.WebElement.clearElement(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12136)",
+                      "<anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)",
+                      "<anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/JAVIER~1.VIL/AppData/Local/Temp/anonymous7216921924021077302webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "extraInfo": [
+                      [
+                        "Driver info",
+                        "driver.version: unknown"
+                      ]
+                    ]
+                  },
+                  "exceptionClass": "org.openqa.selenium.WebDriverException"
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "88a3ac72-37d4-4700-804a-4e6277b946c1"
+              },
+              "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
+              "durationInMillis": 3057
+            },
+            {
+              "step": "When you click on botton",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When you click on botton",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then I should see number '4433736'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then I should see number '4433736'",
+              "durationInMillis": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "user can be able to search for a person in the phone guide Comteco",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given the user is in the guia telefonica Comteco homepage",
+            "When the user selects Nombre & Apellido",
+            "When the user inserts nombre 'guido' and apellido 'vildoso'",
+            "When you click on botton",
+            "Then I should see number '4433736'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "FAILED"
+    },
     {
       "scenario": {
         "title": "Search in google for  best buy",
@@ -528,7 +1682,7 @@
           "Then user should see the 'www.bestbuy.com'"
         ]
       },
-      "storyPath": "stories/RAE/SearchInRealAcademiaEspanola.story",
+      "storyPath": "stories/google/SearchInGoogle.story",
       "allowed": true,
       "normalPerformableScenario": {
         "parameters": [],
@@ -543,25 +1697,25 @@
               "step": "Given the user is in google home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in google home page",
-              "durationInMillis": 10349
+              "durationInMillis": 9364
             },
             {
               "step": "When the user looks for 'best buy'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user looks for 'best buy'",
-              "durationInMillis": 472
+              "durationInMillis": 493
             },
             {
               "step": "When user clicks on search",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When user clicks on search",
-              "durationInMillis": 466
+              "durationInMillis": 270
             },
             {
               "step": "Then user should see the 'www.bestbuy.com'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-              "durationInMillis": 1863
+              "durationInMillis": 2225
             }
           ]
         },

@@ -1,6 +1,9 @@
+javier_jbehave_serenity\comteco\steps\serenity\EndUserSteps.class
+javier_jbehave_serenity\google\steps\serenity\EndUserSteps.class
+javier_jbehave_serenity\comteco\steps\StepDefinitions.class
 javier_jbehave_serenity\google\steps\DefinitionSteps.class
 javier_jbehave_serenity\comteco\AcceptanceTestSuite.class
-javier_jbehave_serenity\google\steps\serenity\EndUserSteps.class
+javier_jbehave_serenity\comteco\pages\COMTECO_Page.class
 javier_jbehave_serenity\google\AcceptanceTestSuite.class
 javier_jbehave_serenity\google\pages\RAE_Page$1.class
 javier_jbehave_serenity\google\pages\RAE_Page.class
