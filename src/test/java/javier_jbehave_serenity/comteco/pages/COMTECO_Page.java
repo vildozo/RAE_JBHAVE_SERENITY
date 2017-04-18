@@ -21,19 +21,16 @@ import net.thucydides.core.pages.PageObject;
 @DefaultUrl("https://www.comteco.com.bo/guiatel/guiatelf.php")
 public class COMTECO_Page extends PageObject{
 	
-	@FindBy(id="nombre")
+	@FindBy(xpath="//form/div[1]/div/input")
     private WebElementFacade campoNombre;
 	
-	@FindBy(id="nombre")
-    private WebElement campoNombreWE;
-
 	@FindBy(id="ap_pat")
     private WebElementFacade campoApellido;
 	
-	@FindBy(how = How.NAME, using = "Consultar")
+	@FindBy(xpath=".//*[@id='GuiatelForm']/div[3]/div/button[1]")
 	private WebElementFacade botonConsultar;
 
-	@FindBy(xpath=".//*[@id='sha']/div[2]/div[4]/small")
+	@FindBy(xpath=".//*[@id='sha']/div[2]/div[4]/small/text()[3]")
 	private WebElementFacade resultado;
 	
 	@FindBy(id = "status")
@@ -48,7 +45,6 @@ public class COMTECO_Page extends PageObject{
 	}
 
 	public void insertNombre(String nombre) {
-		typeInto(campoNombreWE,nombre);
 		typeInto(campoNombre, nombre);
 	}
 

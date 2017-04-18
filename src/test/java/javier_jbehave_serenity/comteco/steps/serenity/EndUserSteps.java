@@ -13,7 +13,7 @@ public class EndUserSteps {
 	@Step
 	public void is_the_home_page() {
 		comteco_page.open();
-    	comteco_page.waitForReady();	
+    	//comteco_page.waitForReady();	
 	}
 
 	@Step
