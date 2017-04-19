@@ -138,7 +138,7 @@
               <string>When the user selects Nombre &amp; Apellido</string>
               <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
               <string>When you click on botton</string>
-              <string>Then I should see number &apos;4432159&apos;</string>
+              <string>Then I should see number &apos;Nombre Completo&apos;</string>
             </steps>
           </scenario>
         </scenarios>
@@ -148,7 +148,7 @@
 As a user
 I want to be able to look for a person in the Guia Telefonica of COMTECTO</localizedNarrative>
       <allowed>true</allowed>
-      <status>FAILED</status>
+      <status>SUCCESSFUL</status>
       <givenStories/>
       <scenarios>
         <performableScenario>
@@ -230,7 +230,7 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
               <string>When the user selects Nombre &amp; Apellido</string>
               <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
               <string>When you click on botton</string>
-              <string>Then I should see number &apos;4432159&apos;</string>
+              <string>Then I should see number &apos;Nombre Completo&apos;</string>
             </steps>
           </scenario>
           <storyPath>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
@@ -248,325 +248,32 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
                   <step>Given the user is in the guia telefonica Comteco homepage</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
-                  <durationInMillis>10878</durationInMillis>
+                  <durationInMillis>24693</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user selects Nombre &amp; Apellido</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
-                  <durationInMillis>949</durationInMillis>
+                  <durationInMillis>970</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
-                  <durationInMillis>1428</durationInMillis>
+                  <durationInMillis>1328</durationInMillis>
                 </successful>
                 <successful>
                   <step>When you click on botton</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When you click on botton</parametrisedStep>
-                  <durationInMillis>2323</durationInMillis>
+                  <durationInMillis>6465</durationInMillis>
                 </successful>
-                <failed>
-                  <step>Then I should see number &apos;4432159&apos;</step>
-                  <type>FAILED</type>
-                  <throwable>
-                    <detailMessage>Then I should see number &apos;4432159&apos;</detailMessage>
-                    <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
-                      <detailMessage>org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown</detailMessage>
-                      <cause class="org.openqa.selenium.NoSuchElementException" defined-in="java.lang.Throwable">
-                        <detailMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown</detailMessage>
-                        <cause class="org.openqa.selenium.TimeoutException">
-                          <detailMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed</detailMessage>
-                          <stackTrace>
-                            <trace>org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)</trace>
-                            <trace>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)</trace>
-                            <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:761)</trace>
-                            <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                            <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                            <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                            <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                            <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                            <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                            <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                            <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                            <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                            <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                            <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                            <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                            <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                            <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                            <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                            <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                            <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                            <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                            <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                            <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                            <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                            <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                            <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                            <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                            <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                            <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                            <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                            <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                            <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                            <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                          </stackTrace>
-                          <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                            <c class="list"/>
-                            <list/>
-                          </suppressedExceptions>
-                          <extraInfo>
-                            <entry>
-                              <string>Driver info</string>
-                              <string>driver.version: unknown</string>
-                            </entry>
-                          </extraInfo>
-                        </cause>
-                        <stackTrace>
-                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:794)</trace>
-                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:767)</trace>
-                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                          <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                          <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                          <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                          <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                          <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                        </stackTrace>
-                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                          <c class="list"/>
-                          <list/>
-                        </suppressedExceptions>
-                        <extraInfo>
-                          <entry>
-                            <string>Driver info</string>
-                            <string>driver.version: unknown</string>
-                          </entry>
-                        </extraInfo>
-                      </cause>
-                      <stackTrace defined-in="java.lang.Throwable">
-                        <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                      </stackTrace>
-                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                        <c class="list"/>
-                        <list/>
-                      </suppressedExceptions>
-                      <detailedMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown</detailedMessage>
-                      <stackTrace>
-                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:794)</trace>
-                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:767)</trace>
-                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                        <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                        <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                      </stackTrace>
-                      <cause class="org.openqa.selenium.TimeoutException">
-                        <detailMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed</detailMessage>
-                        <stackTrace>
-                          <trace>org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)</trace>
-                          <trace>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)</trace>
-                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:761)</trace>
-                          <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                          <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                          <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                          <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                          <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                          <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                          <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                          <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                          <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                          <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                          <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                          <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                          <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                          <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                        </stackTrace>
-                        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                          <c class="list"/>
-                          <list/>
-                        </suppressedExceptions>
-                        <extraInfo>
-                          <entry>
-                            <string>Driver info</string>
-                            <string>driver.version: unknown</string>
-                          </entry>
-                        </extraInfo>
-                      </cause>
-                      <exceptionClass>org.openqa.selenium.NoSuchElementException</exceptionClass>
-                    </cause>
-                    <stackTrace>
-                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <uuid>50327362-1081-4061-b3d3-a949c350d64b</uuid>
-                  </throwable>
-                  <parametrisedStep>Then I should see number &apos;4432159&apos;</parametrisedStep>
-                  <durationInMillis>6488</durationInMillis>
-                </failed>
+                <successful>
+                  <step>Then I should see number &apos;Nombre Completo&apos;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then I should see number &apos;Nombre Completo&apos;</parametrisedStep>
+                  <durationInMillis>1074</durationInMillis>
+                </successful>
               </results>
             </steps>
             <afterSteps>
@@ -653,18 +360,18 @@ Driver info: driver.version: unknown</detailedMessage>
                 <string>When the user selects Nombre &amp; Apellido</string>
                 <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
                 <string>When you click on botton</string>
-                <string>Then I should see number &apos;4432159&apos;</string>
+                <string>Then I should see number &apos;Nombre Completo&apos;</string>
               </steps>
             </scenario>
           </normalPerformableScenario>
           <examplePerformableScenarios/>
-          <status>FAILED</status>
+          <status>SUCCESSFUL</status>
         </performableScenario>
       </scenarios>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>25257</durationInMillis>
+        <durationInMillis>38295</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -914,25 +621,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
                   <step>Given the user is in google home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in google home page</parametrisedStep>
-                  <durationInMillis>9041</durationInMillis>
+                  <durationInMillis>9861</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user looks for &apos;best buy&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-                  <durationInMillis>446</durationInMillis>
+                  <durationInMillis>468</durationInMillis>
                 </successful>
                 <successful>
                   <step>When user clicks on search</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When user clicks on search</parametrisedStep>
-                  <durationInMillis>593</durationInMillis>
+                  <durationInMillis>526</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-                  <durationInMillis>2149</durationInMillis>
+                  <durationInMillis>2201</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -1030,7 +737,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>13525</durationInMillis>
+        <durationInMillis>14234</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1115,7 +822,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
           <string>When the user selects Nombre &amp; Apellido</string>
           <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
           <string>When you click on botton</string>
-          <string>Then I should see number &apos;4432159&apos;</string>
+          <string>Then I should see number &apos;Nombre Completo&apos;</string>
         </steps>
       </scenario>
       <storyPath>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
@@ -1133,325 +840,32 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in the guia telefonica Comteco homepage</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
-              <durationInMillis>10878</durationInMillis>
+              <durationInMillis>24693</durationInMillis>
             </successful>
             <successful>
               <step>When the user selects Nombre &amp; Apellido</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
-              <durationInMillis>949</durationInMillis>
+              <durationInMillis>970</durationInMillis>
             </successful>
             <successful>
               <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
-              <durationInMillis>1428</durationInMillis>
+              <durationInMillis>1328</durationInMillis>
             </successful>
             <successful>
               <step>When you click on botton</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When you click on botton</parametrisedStep>
-              <durationInMillis>2323</durationInMillis>
+              <durationInMillis>6465</durationInMillis>
             </successful>
-            <failed>
-              <step>Then I should see number &apos;4432159&apos;</step>
-              <type>FAILED</type>
-              <throwable>
-                <detailMessage>Then I should see number &apos;4432159&apos;</detailMessage>
-                <cause class="net.serenitybdd.core.exceptions.SerenityManagedException">
-                  <detailMessage>org.openqa.selenium.NoSuchElementException: Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown</detailMessage>
-                  <cause class="org.openqa.selenium.NoSuchElementException" defined-in="java.lang.Throwable">
-                    <detailMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown</detailMessage>
-                    <cause class="org.openqa.selenium.TimeoutException">
-                      <detailMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed</detailMessage>
-                      <stackTrace>
-                        <trace>org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)</trace>
-                        <trace>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)</trace>
-                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:761)</trace>
-                        <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                        <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                        <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                        <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                        <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                        <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                        <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                        <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                        <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                        <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                        <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                        <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                        <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                        <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                        <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                      </stackTrace>
-                      <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                        <c class="list"/>
-                        <list/>
-                      </suppressedExceptions>
-                      <extraInfo>
-                        <entry>
-                          <string>Driver info</string>
-                          <string>driver.version: unknown</string>
-                        </entry>
-                      </extraInfo>
-                    </cause>
-                    <stackTrace>
-                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:794)</trace>
-                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:767)</trace>
-                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                      <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                      <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                      <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                      <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <extraInfo>
-                      <entry>
-                        <string>Driver info</string>
-                        <string>driver.version: unknown</string>
-                      </entry>
-                    </extraInfo>
-                  </cause>
-                  <stackTrace defined-in="java.lang.Throwable">
-                    <trace>net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                  </stackTrace>
-                  <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                    <c class="list"/>
-                    <list/>
-                  </suppressedExceptions>
-                  <detailedMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
-System info: host: &apos;ascbojvildozo&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: driver.version: unknown</detailedMessage>
-                  <stackTrace>
-                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:794)</trace>
-                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:767)</trace>
-                    <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                    <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                    <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                    <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                    <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                    <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                    <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                    <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                    <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                    <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                    <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                    <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                    <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                    <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                    <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                    <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                  </stackTrace>
-                  <cause class="org.openqa.selenium.TimeoutException">
-                    <detailMessage>Timed out after 5 seconds waiting for COMTECO_Page.resultado to be displayed</detailMessage>
-                    <stackTrace>
-                      <trace>org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)</trace>
-                      <trace>org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)</trace>
-                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:761)</trace>
-                      <trace>net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:864)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                      <trace>net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)</trace>
-                      <trace>com.sun.proxy.$Proxy21.getText(Unknown Source)</trace>
-                      <trace>javier_jbehave_serenity.comteco.pages.COMTECO_Page.obtenerNumero(COMTECO_Page.java:60)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps.verResultadoDeBusqueda(EndUserSteps.java:37)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.CGLIB$verResultadoDeBusqueda$2(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe$$FastClassByCGLIB$$f9717b7e.invoke(&lt;generated&gt;)</trace>
-                      <trace>net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)</trace>
-                      <trace>net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$aa269fbe.verResultadoDeBusqueda(&lt;generated&gt;)</trace>
-                      <trace>javier_jbehave_serenity.comteco.steps.StepDefinitions.thenIShouldSeeNumber(StepDefinitions.java:38)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</trace>
-                      <trace>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</trace>
-                      <trace>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</trace>
-                      <trace>java.lang.reflect.Method.invoke(Method.java:498)</trace>
-                      <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                      <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                      <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                      <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                      <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                      <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                    </stackTrace>
-                    <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                      <c class="list"/>
-                      <list/>
-                    </suppressedExceptions>
-                    <extraInfo>
-                      <entry>
-                        <string>Driver info</string>
-                        <string>driver.version: unknown</string>
-                      </entry>
-                    </extraInfo>
-                  </cause>
-                  <exceptionClass>org.openqa.selenium.NoSuchElementException</exceptionClass>
-                </cause>
-                <stackTrace>
-                  <trace>org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)</trace>
-                  <trace>org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)</trace>
-                  <trace>org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)</trace>
-                  <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-                  <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-                  <trace>java.lang.Thread.run(Thread.java:745)</trace>
-                </stackTrace>
-                <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-                  <c class="list"/>
-                  <list/>
-                </suppressedExceptions>
-                <uuid>50327362-1081-4061-b3d3-a949c350d64b</uuid>
-              </throwable>
-              <parametrisedStep>Then I should see number &apos;4432159&apos;</parametrisedStep>
-              <durationInMillis>6488</durationInMillis>
-            </failed>
+            <successful>
+              <step>Then I should see number &apos;Nombre Completo&apos;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then I should see number &apos;Nombre Completo&apos;</parametrisedStep>
+              <durationInMillis>1074</durationInMillis>
+            </successful>
           </results>
         </steps>
         <afterSteps>
@@ -1538,12 +952,12 @@ Driver info: driver.version: unknown</detailedMessage>
             <string>When the user selects Nombre &amp; Apellido</string>
             <string>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</string>
             <string>When you click on botton</string>
-            <string>Then I should see number &apos;4432159&apos;</string>
+            <string>Then I should see number &apos;Nombre Completo&apos;</string>
           </steps>
         </scenario>
       </normalPerformableScenario>
       <examplePerformableScenarios/>
-      <status>FAILED</status>
+      <status>SUCCESSFUL</status>
     </performableScenario>
     <performableScenario>
       <scenario>
@@ -1641,25 +1055,25 @@ Driver info: driver.version: unknown</detailedMessage>
               <step>Given the user is in google home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in google home page</parametrisedStep>
-              <durationInMillis>9041</durationInMillis>
+              <durationInMillis>9861</durationInMillis>
             </successful>
             <successful>
               <step>When the user looks for &apos;best buy&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-              <durationInMillis>446</durationInMillis>
+              <durationInMillis>468</durationInMillis>
             </successful>
             <successful>
               <step>When user clicks on search</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When user clicks on search</parametrisedStep>
-              <durationInMillis>593</durationInMillis>
+              <durationInMillis>526</durationInMillis>
             </successful>
             <successful>
               <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-              <durationInMillis>2149</durationInMillis>
+              <durationInMillis>2201</durationInMillis>
             </successful>
           </results>
         </steps>

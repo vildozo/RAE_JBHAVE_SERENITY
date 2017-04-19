@@ -30,7 +30,7 @@ public class COMTECO_Page extends PageObject{
 	@FindBy(xpath=".//*[@id='GuiatelForm']/div[3]/div/button[1]")
 	private WebElementFacade botonConsultar;
 
-	@FindBy(xpath=".//*[@id='sha']/div[2]/div[4]/small/text()[3]")
+	@FindBy(xpath=".//*[@id='sha']/div[2]/div[4]/small/strong[2]")
 	private WebElementFacade resultado;
 	
 	@FindBy(id = "status")

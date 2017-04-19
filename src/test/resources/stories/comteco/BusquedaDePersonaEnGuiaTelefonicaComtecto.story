@@ -10,5 +10,5 @@ Given the user is in the guia telefonica Comteco homepage
 When the user selects Nombre & Apellido
 When the user inserts nombre 'guido' and apellido 'vildoso'
 When you click on botton
-Then I should see number '4432159'
+Then I should see number 'Nombre Completo'
 					 
