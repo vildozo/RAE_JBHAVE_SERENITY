@@ -7,7 +7,7 @@ import org.jbehave.core.annotations.When;
 import javier_jbehave_serenity.comteco.steps.serenity.EndUserSteps;
 import net.thucydides.core.annotations.Steps;
 
-public class StepDefinitions {
+public class GoogleStepDefinitions {
 	
 	@Steps
 	EndUserSteps endUser;

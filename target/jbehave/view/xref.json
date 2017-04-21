@@ -2,7 +2,434 @@
   "stories": [
     {
       "story": {
-        "path": "stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
+        "path": "stories/tests/bing/SearchInBing.story",
+        "description": {
+          "descriptionAsString": "Sample story"
+        },
+        "narrative": {
+          "inOrderTo": "search in bing",
+          "asA": "user i should be able to search for a term",
+          "iWantTo": "be able to search for a term and be able to see what i'm looking for",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given user is in the Bing homepage",
+              "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "When user clicks on the search button",
+              "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+            ]
+          }
+        ],
+        "name": "SearchInBing.story"
+      },
+      "localizedNarrative": "In order to search in bing\nAs a user i should be able to search for a term\nI want to be able to search for a term and be able to see what i'm looking for",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given user is in the Bing homepage",
+              "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "When user clicks on the search button",
+              "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+            ]
+          },
+          "storyPath": "stories/tests/bing/SearchInBing.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given user is in the Bing homepage",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given user is in the Bing homepage",
+                  "durationInMillis": 8175
+                },
+                {
+                  "step": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+                  "durationInMillis": 1
+                },
+                {
+                  "step": "When user clicks on the search button",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When user clicks on the search button",
+                  "durationInMillis": 1
+                },
+                {
+                  "step": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
+                  "durationInMillis": 1
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given user is in the Bing homepage",
+                "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+                "When user clicks on the search button",
+                "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 17943
+      },
+      "givenStory": false
+    },
+    {
+      "story": {
+        "path": "stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
         "description": {
           "descriptionAsString": "Sample story"
         },
@@ -276,7 +703,7 @@
               "Then I should see number 'Nombre Completo'"
             ]
           },
-          "storyPath": "stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
+          "storyPath": "stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
           "allowed": true,
           "normalPerformableScenario": {
             "parameters": [],
@@ -291,31 +718,31 @@
                   "step": "Given the user is in the guia telefonica Comteco homepage",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
-                  "durationInMillis": 24693
+                  "durationInMillis": 9919
                 },
                 {
                   "step": "When the user selects Nombre & Apellido",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user selects Nombre & Apellido",
-                  "durationInMillis": 970
+                  "durationInMillis": 867
                 },
                 {
                   "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
-                  "durationInMillis": 1328
+                  "durationInMillis": 1339
                 },
                 {
                   "step": "When you click on botton",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When you click on botton",
-                  "durationInMillis": 6465
+                  "durationInMillis": 2265
                 },
                 {
                   "step": "Then I should see number 'Nombre Completo'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then I should see number 'Nombre Completo'",
-                  "durationInMillis": 1074
+                  "durationInMillis": 991
                 }
               ]
             },
@@ -432,13 +859,13 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 38295
+        "durationInMillis": 19071
       },
       "givenStory": false
     },
     {
       "story": {
-        "path": "stories/google/SearchInGoogle.story",
+        "path": "stories/tests/google/SearchInGoogle.story",
         "description": {
           "descriptionAsString": "Sample story"
         },
@@ -710,7 +1137,7 @@
               "Then user should see the 'www.bestbuy.com'"
             ]
           },
-          "storyPath": "stories/google/SearchInGoogle.story",
+          "storyPath": "stories/tests/google/SearchInGoogle.story",
           "allowed": true,
           "normalPerformableScenario": {
             "parameters": [],
@@ -725,25 +1152,25 @@
                   "step": "Given the user is in google home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in google home page",
-                  "durationInMillis": 9861
+                  "durationInMillis": 9258
                 },
                 {
                   "step": "When the user looks for 'best buy'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user looks for 'best buy'",
-                  "durationInMillis": 468
+                  "durationInMillis": 458
                 },
                 {
                   "step": "When user clicks on search",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When user clicks on search",
-                  "durationInMillis": 526
+                  "durationInMillis": 593
                 },
                 {
                   "step": "Then user should see the 'www.bestbuy.com'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-                  "durationInMillis": 2201
+                  "durationInMillis": 2130
                 }
               ]
             },
@@ -859,12 +1286,256 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 14234
+        "durationInMillis": 13670
       },
       "givenStory": false
     }
   ],
   "scenarios": [
+    {
+      "scenario": {
+        "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given user is in the Bing homepage",
+          "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+          "When user clicks on the search button",
+          "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+        ]
+      },
+      "storyPath": "stories/tests/bing/SearchInBing.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given user is in the Bing homepage",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given user is in the Bing homepage",
+              "durationInMillis": 8175
+            },
+            {
+              "step": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "durationInMillis": 1
+            },
+            {
+              "step": "When user clicks on the search button",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When user clicks on the search button",
+              "durationInMillis": 1
+            },
+            {
+              "step": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
+              "durationInMillis": 1
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given user is in the Bing homepage",
+            "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+            "When user clicks on the search button",
+            "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    },
     {
       "scenario": {
         "title": "user can be able to search for a person in the phone guide Comteco",
@@ -965,7 +1636,7 @@
           "Then I should see number 'Nombre Completo'"
         ]
       },
-      "storyPath": "stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
+      "storyPath": "stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story",
       "allowed": true,
       "normalPerformableScenario": {
         "parameters": [],
@@ -980,31 +1651,31 @@
               "step": "Given the user is in the guia telefonica Comteco homepage",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
-              "durationInMillis": 24693
+              "durationInMillis": 9919
             },
             {
               "step": "When the user selects Nombre & Apellido",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user selects Nombre & Apellido",
-              "durationInMillis": 970
+              "durationInMillis": 867
             },
             {
               "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
-              "durationInMillis": 1328
+              "durationInMillis": 1339
             },
             {
               "step": "When you click on botton",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When you click on botton",
-              "durationInMillis": 6465
+              "durationInMillis": 2265
             },
             {
               "step": "Then I should see number 'Nombre Completo'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then I should see number 'Nombre Completo'",
-              "durationInMillis": 1074
+              "durationInMillis": 991
             }
           ]
         },
@@ -1216,7 +1887,7 @@
           "Then user should see the 'www.bestbuy.com'"
         ]
       },
-      "storyPath": "stories/google/SearchInGoogle.story",
+      "storyPath": "stories/tests/google/SearchInGoogle.story",
       "allowed": true,
       "normalPerformableScenario": {
         "parameters": [],
@@ -1231,25 +1902,25 @@
               "step": "Given the user is in google home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in google home page",
-              "durationInMillis": 9861
+              "durationInMillis": 9258
             },
             {
               "step": "When the user looks for 'best buy'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user looks for 'best buy'",
-              "durationInMillis": 468
+              "durationInMillis": 458
             },
             {
               "step": "When user clicks on search",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When user clicks on search",
-              "durationInMillis": 526
+              "durationInMillis": 593
             },
             {
               "step": "Then user should see the 'www.bestbuy.com'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-              "durationInMillis": 2201
+              "durationInMillis": 2130
             }
           ]
         },

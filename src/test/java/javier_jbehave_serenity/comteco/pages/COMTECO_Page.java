@@ -33,6 +33,9 @@ public class COMTECO_Page extends PageObject{
 	@FindBy(xpath=".//*[@id='sha']/div[2]/div[4]/small/strong[2]")
 	private WebElementFacade resultado;
 	
+	//@FindBy(xpath=".//*[@id='sha']/div[2]/div[4]/small/strong[2]")
+	//.//*[@id='sha']/div[2]/div[4]/small/text()[3]
+	
 	@FindBy(id = "status")
 	private WebElementFacade dropdown;
 	

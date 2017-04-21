@@ -2,7 +2,373 @@
   <stories>
     <performableStory>
       <story>
-        <path>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</path>
+        <path>stories/tests/bing/SearchInBing.story</path>
+        <description>
+          <descriptionAsString>Sample story</descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo>search in bing</inOrderTo>
+          <asA>user i should be able to search for a term</asA>
+          <iWantTo>be able to search for a term and be able to see what i&apos;m looking for</iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given user is in the Bing homepage</string>
+              <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+              <string>When user clicks on the search button</string>
+              <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>SearchInBing.story</name>
+      </story>
+      <localizedNarrative>In order to search in bing
+As a user i should be able to search for a term
+I want to be able to search for a term and be able to see what i&apos;m looking for</localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given user is in the Bing homepage</string>
+              <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+              <string>When user clicks on the search button</string>
+              <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+            </steps>
+          </scenario>
+          <storyPath>stories/tests/bing/SearchInBing.story</storyPath>
+          <allowed>true</allowed>
+          <normalPerformableScenario>
+            <parameters/>
+            <givenStories/>
+            <beforeSteps>
+              <matches/>
+            </beforeSteps>
+            <steps>
+              <matches/>
+              <results>
+                <successful>
+                  <step>Given user is in the Bing homepage</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Given user is in the Bing homepage</parametrisedStep>
+                  <durationInMillis>8175</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</parametrisedStep>
+                  <durationInMillis>1</durationInMillis>
+                </successful>
+                <successful>
+                  <step>When user clicks on the search button</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>When user clicks on the search button</parametrisedStep>
+                  <durationInMillis>1</durationInMillis>
+                </successful>
+                <successful>
+                  <step>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</step>
+                  <type>SUCCESSFUL</type>
+                  <parametrisedStep>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</parametrisedStep>
+                  <durationInMillis>1</durationInMillis>
+                </successful>
+              </results>
+            </steps>
+            <afterSteps>
+              <matches/>
+            </afterSteps>
+            <storyAndScenarioMeta>
+              <properties/>
+            </storyAndScenarioMeta>
+            <scenario>
+              <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+              <meta>
+                <properties/>
+              </meta>
+              <givenStories>
+                <givenStories/>
+                <givenStoriesAsString></givenStoriesAsString>
+                <examplesTable>
+                  <tableAsString></tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers/>
+                  <data/>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+              </givenStories>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+              <steps>
+                <string>Given user is in the Bing homepage</string>
+                <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+                <string>When user clicks on the search button</string>
+                <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+              </steps>
+            </scenario>
+          </normalPerformableScenario>
+          <examplePerformableScenarios/>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>17943</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+    <performableStory>
+      <story>
+        <path>stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</path>
         <description>
           <descriptionAsString>Sample story</descriptionAsString>
         </description>
@@ -233,7 +599,7 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
               <string>Then I should see number &apos;Nombre Completo&apos;</string>
             </steps>
           </scenario>
-          <storyPath>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
+          <storyPath>stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
           <allowed>true</allowed>
           <normalPerformableScenario>
             <parameters/>
@@ -248,31 +614,31 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
                   <step>Given the user is in the guia telefonica Comteco homepage</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
-                  <durationInMillis>24693</durationInMillis>
+                  <durationInMillis>9919</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user selects Nombre &amp; Apellido</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
-                  <durationInMillis>970</durationInMillis>
+                  <durationInMillis>867</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
-                  <durationInMillis>1328</durationInMillis>
+                  <durationInMillis>1339</durationInMillis>
                 </successful>
                 <successful>
                   <step>When you click on botton</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When you click on botton</parametrisedStep>
-                  <durationInMillis>6465</durationInMillis>
+                  <durationInMillis>2265</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then I should see number &apos;Nombre Completo&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then I should see number &apos;Nombre Completo&apos;</parametrisedStep>
-                  <durationInMillis>1074</durationInMillis>
+                  <durationInMillis>991</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -371,13 +737,13 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>38295</durationInMillis>
+        <durationInMillis>19071</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
     <performableStory>
       <story>
-        <path>stories/google/SearchInGoogle.story</path>
+        <path>stories/tests/google/SearchInGoogle.story</path>
         <description>
           <descriptionAsString>Sample story</descriptionAsString>
         </description>
@@ -606,7 +972,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <string>Then user should see the &apos;www.bestbuy.com&apos;</string>
             </steps>
           </scenario>
-          <storyPath>stories/google/SearchInGoogle.story</storyPath>
+          <storyPath>stories/tests/google/SearchInGoogle.story</storyPath>
           <allowed>true</allowed>
           <normalPerformableScenario>
             <parameters/>
@@ -621,25 +987,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
                   <step>Given the user is in google home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in google home page</parametrisedStep>
-                  <durationInMillis>9861</durationInMillis>
+                  <durationInMillis>9258</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user looks for &apos;best buy&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-                  <durationInMillis>468</durationInMillis>
+                  <durationInMillis>458</durationInMillis>
                 </successful>
                 <successful>
                   <step>When user clicks on search</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When user clicks on search</parametrisedStep>
-                  <durationInMillis>526</durationInMillis>
+                  <durationInMillis>593</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-                  <durationInMillis>2201</durationInMillis>
+                  <durationInMillis>2130</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -737,12 +1103,220 @@ I want to be able to search for my doubts and get where i can find answers</loca
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>14234</durationInMillis>
+        <durationInMillis>13670</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
   </stories>
   <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString></tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers/>
+          <data/>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given user is in the Bing homepage</string>
+          <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+          <string>When user clicks on the search button</string>
+          <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+        </steps>
+      </scenario>
+      <storyPath>stories/tests/bing/SearchInBing.story</storyPath>
+      <allowed>true</allowed>
+      <normalPerformableScenario>
+        <parameters/>
+        <givenStories/>
+        <beforeSteps>
+          <matches/>
+        </beforeSteps>
+        <steps>
+          <matches/>
+          <results>
+            <successful>
+              <step>Given user is in the Bing homepage</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Given user is in the Bing homepage</parametrisedStep>
+              <durationInMillis>8175</durationInMillis>
+            </successful>
+            <successful>
+              <step>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</parametrisedStep>
+              <durationInMillis>1</durationInMillis>
+            </successful>
+            <successful>
+              <step>When user clicks on the search button</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>When user clicks on the search button</parametrisedStep>
+              <durationInMillis>1</durationInMillis>
+            </successful>
+            <successful>
+              <step>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</step>
+              <type>SUCCESSFUL</type>
+              <parametrisedStep>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</parametrisedStep>
+              <durationInMillis>1</durationInMillis>
+            </successful>
+          </results>
+        </steps>
+        <afterSteps>
+          <matches/>
+        </afterSteps>
+        <storyAndScenarioMeta>
+          <properties/>
+        </storyAndScenarioMeta>
+        <scenario>
+          <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+          <meta>
+            <properties/>
+          </meta>
+          <givenStories>
+            <givenStories/>
+            <givenStoriesAsString></givenStoriesAsString>
+            <examplesTable>
+              <tableAsString></tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers/>
+              <data/>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+          </givenStories>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+          <steps>
+            <string>Given user is in the Bing homepage</string>
+            <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+            <string>When user clicks on the search button</string>
+            <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+          </steps>
+        </scenario>
+      </normalPerformableScenario>
+      <examplePerformableScenarios/>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
     <performableScenario>
       <scenario>
         <title>user can be able to search for a person in the phone guide Comteco</title>
@@ -825,7 +1399,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
           <string>Then I should see number &apos;Nombre Completo&apos;</string>
         </steps>
       </scenario>
-      <storyPath>stories/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
+      <storyPath>stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story</storyPath>
       <allowed>true</allowed>
       <normalPerformableScenario>
         <parameters/>
@@ -840,31 +1414,31 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in the guia telefonica Comteco homepage</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
-              <durationInMillis>24693</durationInMillis>
+              <durationInMillis>9919</durationInMillis>
             </successful>
             <successful>
               <step>When the user selects Nombre &amp; Apellido</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
-              <durationInMillis>970</durationInMillis>
+              <durationInMillis>867</durationInMillis>
             </successful>
             <successful>
               <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
-              <durationInMillis>1328</durationInMillis>
+              <durationInMillis>1339</durationInMillis>
             </successful>
             <successful>
               <step>When you click on botton</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When you click on botton</parametrisedStep>
-              <durationInMillis>6465</durationInMillis>
+              <durationInMillis>2265</durationInMillis>
             </successful>
             <successful>
               <step>Then I should see number &apos;Nombre Completo&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then I should see number &apos;Nombre Completo&apos;</parametrisedStep>
-              <durationInMillis>1074</durationInMillis>
+              <durationInMillis>991</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -1040,7 +1614,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
           <string>Then user should see the &apos;www.bestbuy.com&apos;</string>
         </steps>
       </scenario>
-      <storyPath>stories/google/SearchInGoogle.story</storyPath>
+      <storyPath>stories/tests/google/SearchInGoogle.story</storyPath>
       <allowed>true</allowed>
       <normalPerformableScenario>
         <parameters/>
@@ -1055,25 +1629,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in google home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in google home page</parametrisedStep>
-              <durationInMillis>9861</durationInMillis>
+              <durationInMillis>9258</durationInMillis>
             </successful>
             <successful>
               <step>When the user looks for &apos;best buy&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-              <durationInMillis>468</durationInMillis>
+              <durationInMillis>458</durationInMillis>
             </successful>
             <successful>
               <step>When user clicks on search</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When user clicks on search</parametrisedStep>
-              <durationInMillis>526</durationInMillis>
+              <durationInMillis>593</durationInMillis>
             </successful>
             <successful>
               <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-              <durationInMillis>2201</durationInMillis>
+              <durationInMillis>2130</durationInMillis>
             </successful>
           </results>
         </steps>

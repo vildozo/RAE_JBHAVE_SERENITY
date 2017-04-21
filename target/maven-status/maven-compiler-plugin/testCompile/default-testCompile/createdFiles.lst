@@ -1,7 +1,11 @@
+javier_jbehave_serenity\bing\AcceptanceTestSuite.class
+javier_jbehave_serenity\comteco\steps\GoogleStepDefinitions.class
 javier_jbehave_serenity\comteco\steps\serenity\EndUserSteps.class
 javier_jbehave_serenity\google\steps\serenity\EndUserSteps.class
-javier_jbehave_serenity\comteco\steps\StepDefinitions.class
+javier_jbehave_serenity\bing\steps\BingStepDefinition.class
 javier_jbehave_serenity\google\steps\DefinitionSteps.class
+javier_jbehave_serenity\bing\pages\Bing_Page.class
+javier_jbehave_serenity\bing\steps\serenity\BingEndUserSteps.class
 javier_jbehave_serenity\comteco\AcceptanceTestSuite.class
 javier_jbehave_serenity\comteco\pages\COMTECO_Page.class
 javier_jbehave_serenity\google\AcceptanceTestSuite.class
