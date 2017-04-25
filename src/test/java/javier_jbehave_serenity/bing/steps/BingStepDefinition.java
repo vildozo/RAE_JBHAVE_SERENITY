@@ -28,7 +28,7 @@ public class BingStepDefinition {
 			bingEndUser.clicks_on_search_button();
 		}
 
-	@Then("user should be able to '$searchResult")
+	@Then("user should be able to '$searchResult'")
 	public void then_user_should_be_able_to(String searchResult){
 		bingEndUser.should_be_able_to_see_results(searchResult);
 	}

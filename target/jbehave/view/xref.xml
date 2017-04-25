@@ -61,7 +61,7 @@
         </lifecycle>
         <scenarios>
           <scenario>
-            <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+            <title>as an internet user i would like to make a search in bing for Suffolk University</title>
             <meta>
               <properties/>
             </meta>
@@ -135,9 +135,9 @@
             </examplesTable>
             <steps>
               <string>Given user is in the Bing homepage</string>
-              <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+              <string>When users enteres search term &apos;suffolk university&apos;</string>
               <string>When user clicks on the search button</string>
-              <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+              <string>Then user should be able to &apos;Suffolk University&apos;</string>
             </steps>
           </scenario>
         </scenarios>
@@ -152,7 +152,7 @@ I want to be able to search for a term and be able to see what i&apos;m looking 
       <scenarios>
         <performableScenario>
           <scenario>
-            <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+            <title>as an internet user i would like to make a search in bing for Suffolk University</title>
             <meta>
               <properties/>
             </meta>
@@ -226,9 +226,9 @@ I want to be able to search for a term and be able to see what i&apos;m looking 
             </examplesTable>
             <steps>
               <string>Given user is in the Bing homepage</string>
-              <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+              <string>When users enteres search term &apos;suffolk university&apos;</string>
               <string>When user clicks on the search button</string>
-              <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+              <string>Then user should be able to &apos;Suffolk University&apos;</string>
             </steps>
           </scenario>
           <storyPath>stories/tests/bing/SearchInBing.story</storyPath>
@@ -246,25 +246,25 @@ I want to be able to search for a term and be able to see what i&apos;m looking 
                   <step>Given user is in the Bing homepage</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given user is in the Bing homepage</parametrisedStep>
-                  <durationInMillis>8175</durationInMillis>
+                  <durationInMillis>10061</durationInMillis>
                 </successful>
                 <successful>
-                  <step>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</step>
+                  <step>When users enteres search term &apos;suffolk university&apos;</step>
                   <type>SUCCESSFUL</type>
-                  <parametrisedStep>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</parametrisedStep>
-                  <durationInMillis>1</durationInMillis>
+                  <parametrisedStep>When users enteres search term &apos;suffolk university&apos;</parametrisedStep>
+                  <durationInMillis>3236</durationInMillis>
                 </successful>
                 <successful>
                   <step>When user clicks on the search button</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When user clicks on the search button</parametrisedStep>
-                  <durationInMillis>1</durationInMillis>
+                  <durationInMillis>2504</durationInMillis>
                 </successful>
                 <successful>
-                  <step>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</step>
+                  <step>Then user should be able to &apos;Suffolk University&apos;</step>
                   <type>SUCCESSFUL</type>
-                  <parametrisedStep>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</parametrisedStep>
-                  <durationInMillis>1</durationInMillis>
+                  <parametrisedStep>Then user should be able to &apos;Suffolk University&apos;</parametrisedStep>
+                  <durationInMillis>293</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -275,7 +275,7 @@ I want to be able to search for a term and be able to see what i&apos;m looking 
               <properties/>
             </storyAndScenarioMeta>
             <scenario>
-              <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+              <title>as an internet user i would like to make a search in bing for Suffolk University</title>
               <meta>
                 <properties/>
               </meta>
@@ -349,9 +349,9 @@ I want to be able to search for a term and be able to see what i&apos;m looking 
               </examplesTable>
               <steps>
                 <string>Given user is in the Bing homepage</string>
-                <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+                <string>When users enteres search term &apos;suffolk university&apos;</string>
                 <string>When user clicks on the search button</string>
-                <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+                <string>Then user should be able to &apos;Suffolk University&apos;</string>
               </steps>
             </scenario>
           </normalPerformableScenario>
@@ -362,7 +362,7 @@ I want to be able to search for a term and be able to see what i&apos;m looking 
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>17943</durationInMillis>
+        <durationInMillis>19099</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -614,31 +614,31 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
                   <step>Given the user is in the guia telefonica Comteco homepage</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
-                  <durationInMillis>9919</durationInMillis>
+                  <durationInMillis>18919</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user selects Nombre &amp; Apellido</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
-                  <durationInMillis>867</durationInMillis>
+                  <durationInMillis>1052</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
-                  <durationInMillis>1339</durationInMillis>
+                  <durationInMillis>1360</durationInMillis>
                 </successful>
                 <successful>
                   <step>When you click on botton</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When you click on botton</parametrisedStep>
-                  <durationInMillis>2265</durationInMillis>
+                  <durationInMillis>2174</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then I should see number &apos;Nombre Completo&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then I should see number &apos;Nombre Completo&apos;</parametrisedStep>
-                  <durationInMillis>991</durationInMillis>
+                  <durationInMillis>1110</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -737,7 +737,7 @@ I want to be able to look for a person in the Guia Telefonica of COMTECTO</local
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>19071</durationInMillis>
+        <durationInMillis>32739</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -987,25 +987,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
                   <step>Given the user is in google home page</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given the user is in google home page</parametrisedStep>
-                  <durationInMillis>9258</durationInMillis>
+                  <durationInMillis>9320</durationInMillis>
                 </successful>
                 <successful>
                   <step>When the user looks for &apos;best buy&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-                  <durationInMillis>458</durationInMillis>
+                  <durationInMillis>481</durationInMillis>
                 </successful>
                 <successful>
                   <step>When user clicks on search</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When user clicks on search</parametrisedStep>
-                  <durationInMillis>593</durationInMillis>
+                  <durationInMillis>265</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-                  <durationInMillis>2130</durationInMillis>
+                  <durationInMillis>1794</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -1103,7 +1103,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>13670</durationInMillis>
+        <durationInMillis>13512</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -1111,7 +1111,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
   <scenarios>
     <performableScenario>
       <scenario>
-        <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+        <title>as an internet user i would like to make a search in bing for Suffolk University</title>
         <meta>
           <properties/>
         </meta>
@@ -1185,9 +1185,9 @@ I want to be able to search for my doubts and get where i can find answers</loca
         </examplesTable>
         <steps>
           <string>Given user is in the Bing homepage</string>
-          <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+          <string>When users enteres search term &apos;suffolk university&apos;</string>
           <string>When user clicks on the search button</string>
-          <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+          <string>Then user should be able to &apos;Suffolk University&apos;</string>
         </steps>
       </scenario>
       <storyPath>stories/tests/bing/SearchInBing.story</storyPath>
@@ -1205,25 +1205,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given user is in the Bing homepage</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given user is in the Bing homepage</parametrisedStep>
-              <durationInMillis>8175</durationInMillis>
+              <durationInMillis>10061</durationInMillis>
             </successful>
             <successful>
-              <step>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</step>
+              <step>When users enteres search term &apos;suffolk university&apos;</step>
               <type>SUCCESSFUL</type>
-              <parametrisedStep>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</parametrisedStep>
-              <durationInMillis>1</durationInMillis>
+              <parametrisedStep>When users enteres search term &apos;suffolk university&apos;</parametrisedStep>
+              <durationInMillis>3236</durationInMillis>
             </successful>
             <successful>
               <step>When user clicks on the search button</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When user clicks on the search button</parametrisedStep>
-              <durationInMillis>1</durationInMillis>
+              <durationInMillis>2504</durationInMillis>
             </successful>
             <successful>
-              <step>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</step>
+              <step>Then user should be able to &apos;Suffolk University&apos;</step>
               <type>SUCCESSFUL</type>
-              <parametrisedStep>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</parametrisedStep>
-              <durationInMillis>1</durationInMillis>
+              <parametrisedStep>Then user should be able to &apos;Suffolk University&apos;</parametrisedStep>
+              <durationInMillis>293</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -1234,7 +1234,7 @@ I want to be able to search for my doubts and get where i can find answers</loca
           <properties/>
         </storyAndScenarioMeta>
         <scenario>
-          <title>as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba</title>
+          <title>as an internet user i would like to make a search in bing for Suffolk University</title>
           <meta>
             <properties/>
           </meta>
@@ -1308,9 +1308,9 @@ I want to be able to search for my doubts and get where i can find answers</loca
           </examplesTable>
           <steps>
             <string>Given user is in the Bing homepage</string>
-            <string>When users enteres search term &apos;universidad catolica boliviana regional cochabamba&apos;</string>
+            <string>When users enteres search term &apos;suffolk university&apos;</string>
             <string>When user clicks on the search button</string>
-            <string>Then user should be able to &apos;Universidad Católica Boliviana &quot;San Pablo&quot; Cochabamba&apos;</string>
+            <string>Then user should be able to &apos;Suffolk University&apos;</string>
           </steps>
         </scenario>
       </normalPerformableScenario>
@@ -1414,31 +1414,31 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in the guia telefonica Comteco homepage</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in the guia telefonica Comteco homepage</parametrisedStep>
-              <durationInMillis>9919</durationInMillis>
+              <durationInMillis>18919</durationInMillis>
             </successful>
             <successful>
               <step>When the user selects Nombre &amp; Apellido</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user selects Nombre &amp; Apellido</parametrisedStep>
-              <durationInMillis>867</durationInMillis>
+              <durationInMillis>1052</durationInMillis>
             </successful>
             <successful>
               <step>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user inserts nombre &apos;guido&apos; and apellido &apos;vildoso&apos;</parametrisedStep>
-              <durationInMillis>1339</durationInMillis>
+              <durationInMillis>1360</durationInMillis>
             </successful>
             <successful>
               <step>When you click on botton</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When you click on botton</parametrisedStep>
-              <durationInMillis>2265</durationInMillis>
+              <durationInMillis>2174</durationInMillis>
             </successful>
             <successful>
               <step>Then I should see number &apos;Nombre Completo&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then I should see number &apos;Nombre Completo&apos;</parametrisedStep>
-              <durationInMillis>991</durationInMillis>
+              <durationInMillis>1110</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -1629,25 +1629,25 @@ I want to be able to search for my doubts and get where i can find answers</loca
               <step>Given the user is in google home page</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given the user is in google home page</parametrisedStep>
-              <durationInMillis>9258</durationInMillis>
+              <durationInMillis>9320</durationInMillis>
             </successful>
             <successful>
               <step>When the user looks for &apos;best buy&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When the user looks for &apos;best buy&apos;</parametrisedStep>
-              <durationInMillis>458</durationInMillis>
+              <durationInMillis>481</durationInMillis>
             </successful>
             <successful>
               <step>When user clicks on search</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When user clicks on search</parametrisedStep>
-              <durationInMillis>593</durationInMillis>
+              <durationInMillis>265</durationInMillis>
             </successful>
             <successful>
               <step>Then user should see the &apos;www.bestbuy.com&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then user should see the &apos;www.bestbuy.com&apos;</parametrisedStep>
-              <durationInMillis>2130</durationInMillis>
+              <durationInMillis>1794</durationInMillis>
             </successful>
           </results>
         </steps>

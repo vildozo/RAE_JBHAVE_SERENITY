@@ -70,7 +70,7 @@
         },
         "scenarios": [
           {
-            "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+            "title": "as an internet user i would like to make a search in bing for Suffolk University",
             "meta": {
               "properties": []
             },
@@ -162,9 +162,9 @@
             },
             "steps": [
               "Given user is in the Bing homepage",
-              "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "When users enteres search term 'suffolk university'",
               "When user clicks on the search button",
-              "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+              "Then user should be able to 'Suffolk University'"
             ]
           }
         ],
@@ -177,7 +177,7 @@
       "scenarios": [
         {
           "scenario": {
-            "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+            "title": "as an internet user i would like to make a search in bing for Suffolk University",
             "meta": {
               "properties": []
             },
@@ -269,9 +269,9 @@
             },
             "steps": [
               "Given user is in the Bing homepage",
-              "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "When users enteres search term 'suffolk university'",
               "When user clicks on the search button",
-              "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+              "Then user should be able to 'Suffolk University'"
             ]
           },
           "storyPath": "stories/tests/bing/SearchInBing.story",
@@ -289,25 +289,25 @@
                   "step": "Given user is in the Bing homepage",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given user is in the Bing homepage",
-                  "durationInMillis": 8175
+                  "durationInMillis": 10061
                 },
                 {
-                  "step": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+                  "step": "When users enteres search term 'suffolk university'",
                   "type": "SUCCESSFUL",
-                  "parametrisedStep": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
-                  "durationInMillis": 1
+                  "parametrisedStep": "When users enteres search term 'suffolk university'",
+                  "durationInMillis": 3236
                 },
                 {
                   "step": "When user clicks on the search button",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When user clicks on the search button",
-                  "durationInMillis": 1
+                  "durationInMillis": 2504
                 },
                 {
-                  "step": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
+                  "step": "Then user should be able to 'Suffolk University'",
                   "type": "SUCCESSFUL",
-                  "parametrisedStep": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
-                  "durationInMillis": 1
+                  "parametrisedStep": "Then user should be able to 'Suffolk University'",
+                  "durationInMillis": 293
                 }
               ]
             },
@@ -318,7 +318,7 @@
               "properties": []
             },
             "scenario": {
-              "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+              "title": "as an internet user i would like to make a search in bing for Suffolk University",
               "meta": {
                 "properties": []
               },
@@ -410,9 +410,9 @@
               },
               "steps": [
                 "Given user is in the Bing homepage",
-                "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+                "When users enteres search term 'suffolk university'",
                 "When user clicks on the search button",
-                "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+                "Then user should be able to 'Suffolk University'"
               ]
             }
           },
@@ -423,7 +423,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 17943
+        "durationInMillis": 19099
       },
       "givenStory": false
     },
@@ -718,31 +718,31 @@
                   "step": "Given the user is in the guia telefonica Comteco homepage",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
-                  "durationInMillis": 9919
+                  "durationInMillis": 18919
                 },
                 {
                   "step": "When the user selects Nombre & Apellido",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user selects Nombre & Apellido",
-                  "durationInMillis": 867
+                  "durationInMillis": 1052
                 },
                 {
                   "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
-                  "durationInMillis": 1339
+                  "durationInMillis": 1360
                 },
                 {
                   "step": "When you click on botton",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When you click on botton",
-                  "durationInMillis": 2265
+                  "durationInMillis": 2174
                 },
                 {
                   "step": "Then I should see number 'Nombre Completo'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then I should see number 'Nombre Completo'",
-                  "durationInMillis": 991
+                  "durationInMillis": 1110
                 }
               ]
             },
@@ -859,7 +859,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 19071
+        "durationInMillis": 32739
       },
       "givenStory": false
     },
@@ -1152,25 +1152,25 @@
                   "step": "Given the user is in google home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in google home page",
-                  "durationInMillis": 9258
+                  "durationInMillis": 9320
                 },
                 {
                   "step": "When the user looks for 'best buy'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user looks for 'best buy'",
-                  "durationInMillis": 458
+                  "durationInMillis": 481
                 },
                 {
                   "step": "When user clicks on search",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When user clicks on search",
-                  "durationInMillis": 593
+                  "durationInMillis": 265
                 },
                 {
                   "step": "Then user should see the 'www.bestbuy.com'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-                  "durationInMillis": 2130
+                  "durationInMillis": 1794
                 }
               ]
             },
@@ -1286,7 +1286,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 13670
+        "durationInMillis": 13512
       },
       "givenStory": false
     }
@@ -1294,7 +1294,7 @@
   "scenarios": [
     {
       "scenario": {
-        "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+        "title": "as an internet user i would like to make a search in bing for Suffolk University",
         "meta": {
           "properties": []
         },
@@ -1386,9 +1386,9 @@
         },
         "steps": [
           "Given user is in the Bing homepage",
-          "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+          "When users enteres search term 'suffolk university'",
           "When user clicks on the search button",
-          "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+          "Then user should be able to 'Suffolk University'"
         ]
       },
       "storyPath": "stories/tests/bing/SearchInBing.story",
@@ -1406,25 +1406,25 @@
               "step": "Given user is in the Bing homepage",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given user is in the Bing homepage",
-              "durationInMillis": 8175
+              "durationInMillis": 10061
             },
             {
-              "step": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+              "step": "When users enteres search term 'suffolk university'",
               "type": "SUCCESSFUL",
-              "parametrisedStep": "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
-              "durationInMillis": 1
+              "parametrisedStep": "When users enteres search term 'suffolk university'",
+              "durationInMillis": 3236
             },
             {
               "step": "When user clicks on the search button",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When user clicks on the search button",
-              "durationInMillis": 1
+              "durationInMillis": 2504
             },
             {
-              "step": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
+              "step": "Then user should be able to 'Suffolk University'",
               "type": "SUCCESSFUL",
-              "parametrisedStep": "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'",
-              "durationInMillis": 1
+              "parametrisedStep": "Then user should be able to 'Suffolk University'",
+              "durationInMillis": 293
             }
           ]
         },
@@ -1435,7 +1435,7 @@
           "properties": []
         },
         "scenario": {
-          "title": "as an internet user i would like to make a search in bing for Universidad Catolica bolivian logated in cochabamba",
+          "title": "as an internet user i would like to make a search in bing for Suffolk University",
           "meta": {
             "properties": []
           },
@@ -1527,9 +1527,9 @@
           },
           "steps": [
             "Given user is in the Bing homepage",
-            "When users enteres search term 'universidad catolica boliviana regional cochabamba'",
+            "When users enteres search term 'suffolk university'",
             "When user clicks on the search button",
-            "Then user should be able to 'Universidad Católica Boliviana \"San Pablo\" Cochabamba'"
+            "Then user should be able to 'Suffolk University'"
           ]
         }
       },
@@ -1651,31 +1651,31 @@
               "step": "Given the user is in the guia telefonica Comteco homepage",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
-              "durationInMillis": 9919
+              "durationInMillis": 18919
             },
             {
               "step": "When the user selects Nombre & Apellido",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user selects Nombre & Apellido",
-              "durationInMillis": 867
+              "durationInMillis": 1052
             },
             {
               "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
-              "durationInMillis": 1339
+              "durationInMillis": 1360
             },
             {
               "step": "When you click on botton",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When you click on botton",
-              "durationInMillis": 2265
+              "durationInMillis": 2174
             },
             {
               "step": "Then I should see number 'Nombre Completo'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then I should see number 'Nombre Completo'",
-              "durationInMillis": 991
+              "durationInMillis": 1110
             }
           ]
         },
@@ -1902,25 +1902,25 @@
               "step": "Given the user is in google home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in google home page",
-              "durationInMillis": 9258
+              "durationInMillis": 9320
             },
             {
               "step": "When the user looks for 'best buy'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user looks for 'best buy'",
-              "durationInMillis": 458
+              "durationInMillis": 481
             },
             {
               "step": "When user clicks on search",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When user clicks on search",
-              "durationInMillis": 593
+              "durationInMillis": 265
             },
             {
               "step": "Then user should see the 'www.bestbuy.com'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-              "durationInMillis": 2130
+              "durationInMillis": 1794
             }
           ]
         },
