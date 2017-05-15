@@ -6,42 +6,42 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
 
-import javier_jbehave_serenity.google.pages.RAE_Page;
-public class EndUserSteps {
+import javier_jbehave_serenity.google.pages.Google_Page;
+public class GoogleSteps {
 
-	RAE_Page rae_page;
+	Google_Page google_page;
 	
 	
 	@Step
     public void enters(String keyword) {
-		rae_page.enter_keywords(keyword);
+		google_page.enter_keywords(keyword);
     }
 	
 	
 	@Step
 	public void is_the_home_page() {
-		rae_page.open();
+		google_page.open();
 	}
 	
 	@Step
 	public void looks_for(String word) {
-		rae_page.enter_keywords(word);
+		google_page.enter_keywords(word);
 	}
 	
 	@Step
     public void starts_search() {
-		rae_page.lookup_terms();
+		google_page.lookup_terms();
     }
 
 	@Step
 	public void clicks_button() {		
-		rae_page.lookup_terms();
+		google_page.lookup_terms();
 		
 	}
 	
 	@Step
 	public void should_see_the_definition(String definition) {
-		assertThat(rae_page.getDefinitions(), hasItem(containsString(definition)));
+		assertThat(google_page.getDefinitions(), hasItem(containsString(definition)));
 	}
 	
 	

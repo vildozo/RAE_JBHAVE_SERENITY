@@ -172,7 +172,7 @@
       },
       "localizedNarrative": "In order to search in bing\nAs a user i should be able to search for a term\nI want to be able to search for a term and be able to see what i'm looking for",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -289,25 +289,428 @@
                   "step": "Given user is in the Bing homepage",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given user is in the Bing homepage",
-                  "durationInMillis": 10061
+                  "durationInMillis": 10958
                 },
                 {
                   "step": "When users enteres search term 'suffolk university'",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "When users enteres search term 'suffolk university'",
+                    "cause": {
+                      "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                      "detailMessage": "net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                      "cause": {
+                        "@class": "net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException",
+                        "@defined-in": "java.lang.Throwable",
+                        "detailMessage": "Expected enabled element was not enabled",
+                        "cause": {
+                          "@class": "org.openqa.selenium.TimeoutException",
+                          "detailMessage": "Timed out after 5 seconds waiting for Unknown web element to be enabled",
+                          "cause": {
+                            "@class": "org.openqa.selenium.NoSuchElementException",
+                            "detailMessage": "Timed out after 0 seconds. Element not found",
+                            "stackTrace": [
+                              "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                              "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                              "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                              "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                              "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                              "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                              "java.lang.reflect.Method.invoke(Method.java:498)",
+                              "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                              "com.sun.proxy.$Proxy21.getTagName(Unknown Source)",
+                              "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                              "net.serenitybdd.core.pages.WebElementExpectations.isAFormElement(WebElementExpectations.java:162)",
+                              "net.serenitybdd.core.pages.WebElementExpectations.isDisabledField(WebElementExpectations.java:158)",
+                              "net.serenitybdd.core.pages.WebElementExpectations.access$000(WebElementExpectations.java:10)",
+                              "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:64)",
+                              "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)",
+                              "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)",
+                              "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                              "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                              "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                              "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                              "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                              "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                              "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                              "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                              "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                              "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                              "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                              "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                              "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                              "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                              "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                              "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                              "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                              "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                              "java.lang.reflect.Method.invoke(Method.java:498)",
+                              "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                              "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                              "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                              "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                              "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                              "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                              "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                              "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                              "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                              "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                              "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                              "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                              "java.lang.Thread.run(Thread.java:745)"
+                            ],
+                            "suppressedExceptions": [
+                              [],
+                              []
+                            ],
+                            "extraInfo": [
+                              [
+                                "Driver info",
+                                "driver.version: unknown"
+                              ]
+                            ]
+                          },
+                          "stackTrace": [
+                            "org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)",
+                            "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                            "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                            "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                            "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                            "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                            "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                            "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                            "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                            "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                            "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                            "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                            "java.lang.reflect.Method.invoke(Method.java:498)",
+                            "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                            "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                            "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                            "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                            "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                            "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                            "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                            "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                            "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                            "java.lang.Thread.run(Thread.java:745)"
+                          ],
+                          "suppressedExceptions": [
+                            [],
+                            []
+                          ],
+                          "extraInfo": [
+                            [
+                              "Driver info",
+                              "driver.version: unknown"
+                            ]
+                          ]
+                        },
+                        "stackTrace": [
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:875)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                          "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                          "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                          "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ],
+                        "extraInfo": [
+                          [
+                            "Driver info",
+                            "driver.version: unknown"
+                          ]
+                        ]
+                      },
+                      "stackTrace": [
+                        "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "detailedMessage": "Expected enabled element was not enabled\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                      "stackTrace": [
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:875)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                        "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                        "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "cause": {
+                        "@class": "org.openqa.selenium.TimeoutException",
+                        "detailMessage": "Timed out after 5 seconds waiting for Unknown web element to be enabled",
+                        "cause": {
+                          "@class": "org.openqa.selenium.NoSuchElementException",
+                          "detailMessage": "Timed out after 0 seconds. Element not found",
+                          "stackTrace": [
+                            "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                            "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                            "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                            "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                            "java.lang.reflect.Method.invoke(Method.java:498)",
+                            "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                            "com.sun.proxy.$Proxy21.getTagName(Unknown Source)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                            "net.serenitybdd.core.pages.WebElementExpectations.isAFormElement(WebElementExpectations.java:162)",
+                            "net.serenitybdd.core.pages.WebElementExpectations.isDisabledField(WebElementExpectations.java:158)",
+                            "net.serenitybdd.core.pages.WebElementExpectations.access$000(WebElementExpectations.java:10)",
+                            "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:64)",
+                            "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)",
+                            "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                            "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                            "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                            "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                            "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                            "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                            "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                            "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                            "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                            "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                            "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                            "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                            "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                            "java.lang.reflect.Method.invoke(Method.java:498)",
+                            "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                            "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                            "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                            "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                            "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                            "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                            "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                            "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                            "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                            "java.lang.Thread.run(Thread.java:745)"
+                          ],
+                          "suppressedExceptions": [
+                            [],
+                            []
+                          ],
+                          "extraInfo": [
+                            [
+                              "Driver info",
+                              "driver.version: unknown"
+                            ]
+                          ]
+                        },
+                        "stackTrace": [
+                          "org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)",
+                          "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                          "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                          "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                          "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ],
+                        "extraInfo": [
+                          [
+                            "Driver info",
+                            "driver.version: unknown"
+                          ]
+                        ]
+                      },
+                      "exceptionClass": "net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException"
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "95bb93a5-8d18-4be8-9b59-40db78753abb"
+                  },
                   "parametrisedStep": "When users enteres search term 'suffolk university'",
-                  "durationInMillis": 3236
+                  "durationInMillis": 12202
                 },
                 {
                   "step": "When user clicks on the search button",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "When user clicks on the search button",
-                  "durationInMillis": 2504
+                  "durationInMillis": 0
                 },
                 {
                   "step": "Then user should be able to 'Suffolk University'",
-                  "type": "SUCCESSFUL",
+                  "type": "NOT_PERFORMED",
                   "parametrisedStep": "Then user should be able to 'Suffolk University'",
-                  "durationInMillis": 293
+                  "durationInMillis": 0
                 }
               ]
             },
@@ -417,13 +820,13 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 19099
+        "durationInMillis": 28472
       },
       "givenStory": false
     },
@@ -718,31 +1121,31 @@
                   "step": "Given the user is in the guia telefonica Comteco homepage",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
-                  "durationInMillis": 18919
+                  "durationInMillis": 12052
                 },
                 {
                   "step": "When the user selects Nombre & Apellido",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user selects Nombre & Apellido",
-                  "durationInMillis": 1052
+                  "durationInMillis": 904
                 },
                 {
                   "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
-                  "durationInMillis": 1360
+                  "durationInMillis": 1373
                 },
                 {
                   "step": "When you click on botton",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When you click on botton",
-                  "durationInMillis": 2174
+                  "durationInMillis": 2266
                 },
                 {
                   "step": "Then I should see number 'Nombre Completo'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Then I should see number 'Nombre Completo'",
-                  "durationInMillis": 1110
+                  "durationInMillis": 1059
                 }
               ]
             },
@@ -859,7 +1262,7 @@
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 32739
+        "durationInMillis": 21692
       },
       "givenStory": false
     },
@@ -1035,7 +1438,7 @@
       },
       "localizedNarrative": "In order to be able to clear any doubts\nAs a user\nI want to be able to search for my doubts and get where i can find answers",
       "allowed": true,
-      "status": "SUCCESSFUL",
+      "status": "FAILED",
       "givenStories": [],
       "scenarios": [
         {
@@ -1152,25 +1555,262 @@
                   "step": "Given the user is in google home page",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "Given the user is in google home page",
-                  "durationInMillis": 9320
+                  "durationInMillis": 8970
                 },
                 {
                   "step": "When the user looks for 'best buy'",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When the user looks for 'best buy'",
-                  "durationInMillis": 481
+                  "durationInMillis": 483
                 },
                 {
                   "step": "When user clicks on search",
                   "type": "SUCCESSFUL",
                   "parametrisedStep": "When user clicks on search",
-                  "durationInMillis": 265
+                  "durationInMillis": 335
                 },
                 {
                   "step": "Then user should see the 'www.bestbuy.com'",
-                  "type": "SUCCESSFUL",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "Then user should see the 'www.bestbuy.com'",
+                    "cause": {
+                      "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                      "detailMessage": "java.lang.NoClassDefFoundError: javier_jbehave_serenity/google/pages/Google_Page$1",
+                      "cause": {
+                        "@class": "java.lang.NoClassDefFoundError",
+                        "@defined-in": "java.lang.Throwable",
+                        "detailMessage": "javier_jbehave_serenity/google/pages/Google_Page$1",
+                        "cause": {
+                          "@class": "java.lang.ClassNotFoundException",
+                          "detailMessage": "javier_jbehave_serenity.google.pages.Google_Page$1",
+                          "stackTrace": [
+                            "java.net.URLClassLoader.findClass(URLClassLoader.java:381)",
+                            "java.lang.ClassLoader.loadClass(ClassLoader.java:424)",
+                            "sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)",
+                            "java.lang.ClassLoader.loadClass(ClassLoader.java:357)",
+                            "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                            "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                            "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                            "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                            "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                            "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                            "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                            "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                            "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                            "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                            "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                            "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                            "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                            "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                            "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                            "java.lang.reflect.Method.invoke(Method.java:498)",
+                            "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                            "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                            "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                            "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                            "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                            "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                            "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                            "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                            "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                            "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                            "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                            "java.lang.Thread.run(Thread.java:745)"
+                          ],
+                          "suppressedExceptions": [
+                            [],
+                            []
+                          ]
+                        },
+                        "stackTrace": [
+                          "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                          "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                          "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ]
+                      },
+                      "stackTrace": [
+                        "net.thucydides.core.steps.ErrorConvertor.convertToAssertion(ErrorConvertor.java:22)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:342)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                        "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "detailedMessage": "javier_jbehave_serenity/google/pages/Google_Page$1",
+                      "stackTrace": [
+                        "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                        "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                        "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "cause": {
+                        "@class": "java.lang.ClassNotFoundException",
+                        "detailMessage": "javier_jbehave_serenity.google.pages.Google_Page$1",
+                        "stackTrace": [
+                          "java.net.URLClassLoader.findClass(URLClassLoader.java:381)",
+                          "java.lang.ClassLoader.loadClass(ClassLoader.java:424)",
+                          "sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)",
+                          "java.lang.ClassLoader.loadClass(ClassLoader.java:357)",
+                          "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                          "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                          "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ]
+                      },
+                      "exceptionClass": "java.lang.NoClassDefFoundError"
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "97c8ad7d-457f-4e9f-80cb-25cc6c3761e0"
+                  },
                   "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-                  "durationInMillis": 1794
+                  "durationInMillis": 3190
                 }
               ]
             },
@@ -1280,13 +1920,13 @@
             }
           },
           "examplePerformableScenarios": [],
-          "status": "SUCCESSFUL"
+          "status": "FAILED"
         }
       ],
       "beforeSteps": {},
       "afterSteps": {},
       "timing": {
-        "durationInMillis": 13512
+        "durationInMillis": 14456
       },
       "givenStory": false
     }
@@ -1406,25 +2046,428 @@
               "step": "Given user is in the Bing homepage",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given user is in the Bing homepage",
-              "durationInMillis": 10061
+              "durationInMillis": 10958
             },
             {
               "step": "When users enteres search term 'suffolk university'",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "When users enteres search term 'suffolk university'",
+                "cause": {
+                  "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                  "detailMessage": "net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                  "cause": {
+                    "@class": "net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException",
+                    "@defined-in": "java.lang.Throwable",
+                    "detailMessage": "Expected enabled element was not enabled",
+                    "cause": {
+                      "@class": "org.openqa.selenium.TimeoutException",
+                      "detailMessage": "Timed out after 5 seconds waiting for Unknown web element to be enabled",
+                      "cause": {
+                        "@class": "org.openqa.selenium.NoSuchElementException",
+                        "detailMessage": "Timed out after 0 seconds. Element not found",
+                        "stackTrace": [
+                          "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                          "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                          "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                          "com.sun.proxy.$Proxy21.getTagName(Unknown Source)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                          "net.serenitybdd.core.pages.WebElementExpectations.isAFormElement(WebElementExpectations.java:162)",
+                          "net.serenitybdd.core.pages.WebElementExpectations.isDisabledField(WebElementExpectations.java:158)",
+                          "net.serenitybdd.core.pages.WebElementExpectations.access$000(WebElementExpectations.java:10)",
+                          "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:64)",
+                          "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)",
+                          "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                          "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                          "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                          "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:498)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ],
+                        "extraInfo": [
+                          [
+                            "Driver info",
+                            "driver.version: unknown"
+                          ]
+                        ]
+                      },
+                      "stackTrace": [
+                        "org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)",
+                        "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                        "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                        "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "extraInfo": [
+                        [
+                          "Driver info",
+                          "driver.version: unknown"
+                        ]
+                      ]
+                    },
+                    "stackTrace": [
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:875)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                      "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                      "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                      "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "extraInfo": [
+                      [
+                        "Driver info",
+                        "driver.version: unknown"
+                      ]
+                    ]
+                  },
+                  "stackTrace": [
+                    "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                    "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "detailedMessage": "Expected enabled element was not enabled\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'ascbojvildozo', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'\nDriver info: driver.version: unknown",
+                  "stackTrace": [
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:875)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                    "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                    "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                    "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                    "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                    "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                    "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "cause": {
+                    "@class": "org.openqa.selenium.TimeoutException",
+                    "detailMessage": "Timed out after 5 seconds waiting for Unknown web element to be enabled",
+                    "cause": {
+                      "@class": "org.openqa.selenium.NoSuchElementException",
+                      "detailMessage": "Timed out after 0 seconds. Element not found",
+                      "stackTrace": [
+                        "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                        "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                        "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                        "com.sun.proxy.$Proxy21.getTagName(Unknown Source)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.getTagName(WebElementFacadeImpl.java:1007)",
+                        "net.serenitybdd.core.pages.WebElementExpectations.isAFormElement(WebElementExpectations.java:162)",
+                        "net.serenitybdd.core.pages.WebElementExpectations.isDisabledField(WebElementExpectations.java:158)",
+                        "net.serenitybdd.core.pages.WebElementExpectations.access$000(WebElementExpectations.java:10)",
+                        "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:64)",
+                        "net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)",
+                        "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                        "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                        "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                        "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "extraInfo": [
+                        [
+                          "Driver info",
+                          "driver.version: unknown"
+                        ]
+                      ]
+                    },
+                    "stackTrace": [
+                      "org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)",
+                      "org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:872)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:597)",
+                      "net.serenitybdd.core.pages.PageObject.typeInto(PageObject.java:513)",
+                      "javier_jbehave_serenity.bing.pages.Bing_Page.enterSearch(Bing_Page.java:39)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps.enters_search_term(BingEndUserSteps.java:19)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.CGLIB$enters_search_term$0(<generated>)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6$$FastClassByCGLIB$$61e8aa68.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "javier_jbehave_serenity.bing.steps.serenity.BingEndUserSteps$$EnhancerByCGLIB$$67352c6.enters_search_term(<generated>)",
+                      "javier_jbehave_serenity.bing.steps.BingStepDefinition.when_users_enters_search_term(BingStepDefinition.java:23)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "extraInfo": [
+                      [
+                        "Driver info",
+                        "driver.version: unknown"
+                      ]
+                    ]
+                  },
+                  "exceptionClass": "net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException"
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "95bb93a5-8d18-4be8-9b59-40db78753abb"
+              },
               "parametrisedStep": "When users enteres search term 'suffolk university'",
-              "durationInMillis": 3236
+              "durationInMillis": 12202
             },
             {
               "step": "When user clicks on the search button",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "When user clicks on the search button",
-              "durationInMillis": 2504
+              "durationInMillis": 0
             },
             {
               "step": "Then user should be able to 'Suffolk University'",
-              "type": "SUCCESSFUL",
+              "type": "NOT_PERFORMED",
               "parametrisedStep": "Then user should be able to 'Suffolk University'",
-              "durationInMillis": 293
+              "durationInMillis": 0
             }
           ]
         },
@@ -1534,7 +2577,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     },
     {
       "scenario": {
@@ -1651,31 +2694,31 @@
               "step": "Given the user is in the guia telefonica Comteco homepage",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in the guia telefonica Comteco homepage",
-              "durationInMillis": 18919
+              "durationInMillis": 12052
             },
             {
               "step": "When the user selects Nombre & Apellido",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user selects Nombre & Apellido",
-              "durationInMillis": 1052
+              "durationInMillis": 904
             },
             {
               "step": "When the user inserts nombre 'guido' and apellido 'vildoso'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user inserts nombre 'guido' and apellido 'vildoso'",
-              "durationInMillis": 1360
+              "durationInMillis": 1373
             },
             {
               "step": "When you click on botton",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When you click on botton",
-              "durationInMillis": 2174
+              "durationInMillis": 2266
             },
             {
               "step": "Then I should see number 'Nombre Completo'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Then I should see number 'Nombre Completo'",
-              "durationInMillis": 1110
+              "durationInMillis": 1059
             }
           ]
         },
@@ -1902,25 +2945,262 @@
               "step": "Given the user is in google home page",
               "type": "SUCCESSFUL",
               "parametrisedStep": "Given the user is in google home page",
-              "durationInMillis": 9320
+              "durationInMillis": 8970
             },
             {
               "step": "When the user looks for 'best buy'",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When the user looks for 'best buy'",
-              "durationInMillis": 481
+              "durationInMillis": 483
             },
             {
               "step": "When user clicks on search",
               "type": "SUCCESSFUL",
               "parametrisedStep": "When user clicks on search",
-              "durationInMillis": 265
+              "durationInMillis": 335
             },
             {
               "step": "Then user should see the 'www.bestbuy.com'",
-              "type": "SUCCESSFUL",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "Then user should see the 'www.bestbuy.com'",
+                "cause": {
+                  "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                  "detailMessage": "java.lang.NoClassDefFoundError: javier_jbehave_serenity/google/pages/Google_Page$1",
+                  "cause": {
+                    "@class": "java.lang.NoClassDefFoundError",
+                    "@defined-in": "java.lang.Throwable",
+                    "detailMessage": "javier_jbehave_serenity/google/pages/Google_Page$1",
+                    "cause": {
+                      "@class": "java.lang.ClassNotFoundException",
+                      "detailMessage": "javier_jbehave_serenity.google.pages.Google_Page$1",
+                      "stackTrace": [
+                        "java.net.URLClassLoader.findClass(URLClassLoader.java:381)",
+                        "java.lang.ClassLoader.loadClass(ClassLoader.java:424)",
+                        "sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)",
+                        "java.lang.ClassLoader.loadClass(ClassLoader.java:357)",
+                        "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                        "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                        "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:498)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ]
+                    },
+                    "stackTrace": [
+                      "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                      "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                      "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ]
+                  },
+                  "stackTrace": [
+                    "net.thucydides.core.steps.ErrorConvertor.convertToAssertion(ErrorConvertor.java:22)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:342)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                    "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "detailedMessage": "javier_jbehave_serenity/google/pages/Google_Page$1",
+                  "stackTrace": [
+                    "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                    "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                    "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                    "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                    "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                    "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:498)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "cause": {
+                    "@class": "java.lang.ClassNotFoundException",
+                    "detailMessage": "javier_jbehave_serenity.google.pages.Google_Page$1",
+                    "stackTrace": [
+                      "java.net.URLClassLoader.findClass(URLClassLoader.java:381)",
+                      "java.lang.ClassLoader.loadClass(ClassLoader.java:424)",
+                      "sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)",
+                      "java.lang.ClassLoader.loadClass(ClassLoader.java:357)",
+                      "javier_jbehave_serenity.google.pages.Google_Page.toStrings(Google_Page.java:59)",
+                      "javier_jbehave_serenity.google.pages.Google_Page.getDefinitions(Google_Page.java:55)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps.should_see_the_definition(GoogleSteps.java:44)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.CGLIB$should_see_the_definition$0(<generated>)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0$$FastClassByCGLIB$$2932cba3.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "javier_jbehave_serenity.google.steps.serenity.GoogleSteps$$EnhancerByCGLIB$$29d725f0.should_see_the_definition(<generated>)",
+                      "javier_jbehave_serenity.google.steps.GoogleStepDefinitions.then_user_should_see(GoogleStepDefinitions.java:32)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:498)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ]
+                  },
+                  "exceptionClass": "java.lang.NoClassDefFoundError"
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "97c8ad7d-457f-4e9f-80cb-25cc6c3761e0"
+              },
               "parametrisedStep": "Then user should see the 'www.bestbuy.com'",
-              "durationInMillis": 1794
+              "durationInMillis": 3190
             }
           ]
         },
@@ -2030,7 +3310,7 @@
         }
       },
       "examplePerformableScenarios": [],
-      "status": "SUCCESSFUL"
+      "status": "FAILED"
     }
   ]
 }}

@@ -16,7 +16,7 @@ import net.thucydides.core.annotations.locators.WaitForWebElements;
 import net.thucydides.core.pages.PageObject;
 
 @DefaultUrl("https://www.google.com")
-public class RAE_Page extends PageObject{
+public class Google_Page extends PageObject{
 
 	@FindBy(id="lst-ib")
     private WebElementFacade searchTerms;

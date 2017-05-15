@@ -4,13 +4,13 @@ import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
-import javier_jbehave_serenity.google.steps.serenity.EndUserSteps;
+import javier_jbehave_serenity.google.steps.serenity.GoogleSteps;
 import net.thucydides.core.annotations.Steps;
 
-public class DefinitionSteps {
+public class GoogleStepDefinitions {
 	
 	@Steps
-	EndUserSteps endUser;
+	GoogleSteps endUser;
 	
 	@Given("the user is in google home page")
 	public void givenTheUserIsInEDXorgHomePage(){
