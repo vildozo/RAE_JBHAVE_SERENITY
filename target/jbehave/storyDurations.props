@@ -1,8 +1,8 @@
 #org.jbehave.core.embedder.StoryManager
-#Mon May 15 16:08:37 BOT 2017
-stories/tests/google/SearchInGoogle.story=14000
+#Tue May 16 16:22:26 BOT 2017
+stories/tests/google/SearchInGoogle.story=19000
 threads=1
-total=63000
-stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story=21000
-stories/tests/bing/SearchInBing.story=28000
-threadAverage=63000
+total=95000
+stories/tests/comteco/BusquedaDePersonaEnGuiaTelefonicaComtecto.story=29000
+stories/tests/bing/SearchInBing.story=47000
+threadAverage=95000

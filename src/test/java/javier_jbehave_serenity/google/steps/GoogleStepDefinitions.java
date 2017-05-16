@@ -13,19 +13,17 @@ public class GoogleStepDefinitions {
 	GoogleSteps endUser;
 	
 	@Given("the user is in google home page")
-	public void givenTheUserIsInEDXorgHomePage(){
+	public void givenTheUserIsInGoogleHomePage(){
 		endUser.is_the_home_page();
 	}
 	
 	@When("the user looks for '$word'")
 	public void whenTheUserLooksForTheWord(String word){
 		endUser.looks_for(word);
-	}
-	
-	@When("user clicks on search")
-	public void whenTheUserClicksOnSearch(){
 		endUser.clicks_button();
 	}
+	
+
 	
 	@Then("user should see the '$definition'")
 	public void then_user_should_see(String definition){
